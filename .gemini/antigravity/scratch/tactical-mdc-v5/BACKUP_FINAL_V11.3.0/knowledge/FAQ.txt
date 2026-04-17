@@ -1,0 +1,717 @@
+—————————————————————————
+SAN ANDREAS POLICE DEPARTMENT
+—————————————————————————
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F.A.Q SAPD
+
+
+
+Se recomienda hacer “ Ctrl+F “ y buscar la palabra clave la cual queremos consultar. Ejemplo: Ctrl+F y escribir licencia nos llevará a temas de licencias.
+
+Comandos
+
+
+Comando
+Funcion
+/dutyon
+Entrar de servicio
+/dutyoff
+Salir de servicio
+/callsignv [nº de placa] [nº de división]
+Coloca los números del patrulla
+/dispatch mute
+Mutea el dispatch
+/dispatch unmute
+Desmutear el dispatch
+/flagplate
+Marca una matrícula
+/unflagplate
+Desmarca una matrícula
+/flagcid
+Marca los vehículos de un State ID
+/unflagcid
+Desmarca los vehículos de un State ID
+/jail [State ID] [Tiempo] [Parole]
+Envía a prisión junto tiempo parole
+/jailicu - [stateId] [time] [parole]
+Envía a la enfermería de prisión junto tiempo parole
+/transport  [stateId]
+Permite que un prisionero salga temporalmente de la cárcel.
+/radarspeed [Velocidad]
+Configura el límite de velocidad
+
+
+Dudas sobre los comandos, abrir ticket en el servidor del SAPD.
+
+
+
+
+Para salir de prisión hay un NPC el cual deben los detenidos hablar con él.
+
+
+
+
+
+
+Para los agentes nuevos -> Guía del Traslado
+
+Incautación de objetos
+
+
+Pretexto
+Existen objetos que de base no son ilegales (Por lo tanto no deben ser incautados) pero se puede inducir su ilegalidad en base al uso aplicable en según qué incidente. Algunos ejemplos básicos:
+
+Ganzúa:
+La ganzúa no es un objeto ilegal. Sin embargo, al ser usada para un robo de vehículo se convierte en un objeto que debe ser retirado pero no sancionado dado que se induce su ilegalidad al haber cometido un robo de vehículo.
+
+Destornillador:
+El destornillador no es un objeto ilegal. Sin embargo, al ser usado en un bombín de un vehículo para robarlo se convierte en un objeto que debe ser retirado pero no sancionado dado que se induce su ilegalidad al haber cometido un robo de vehículo.
+
+Multi-function device:
+El multi-function device no es un objeto ilegal. Sin embargo, al ser usado para hackear en robos se convierte en un objeto que debe ser retirado pero no sancionado dado que se induce su ilegalidad al haber cometido un robo de cualquier tipo.
+
+
+¿Se deben quitar siempre las ganzúas, destornilladores y Multi-function device?
+
+No, solo se quitará en caso de que se hayan usado para un delito y no hay cargo específico para ello.
+
+
+
+
+
+
+
+
+
+
+
+
+Incautación de armas y licencias
+
+Armas blancas:
+La posesión de un arma blanca no constituye un delito.
+Por lo tanto, no siempre se retiran. Sin embargo, el uso injustificado de dicho arma constituye el delito de las lesiones cometidas y la incautación de dicha arma blanca. (Usarla para robar, apuñalar etc…)
+
+Armas de fuego:
+En caso de poseer un arma de fuego sin licencia o que ha sido utilizada sin justificación legal se convierte automáticamente en un arma de fuego ilegal. Entendemos por arma de fuego, una pistola. Como indica la legislación “Código del Estado de San Andreas” en su sección 005, cualquier LEO puede retirar licencias de armas bajo causa probable tras la comisión de un delito grave B. 
+De forma interna, dicha causa probable y retirada debe quedar especificada en el debrief del incidente origen y el perfil del ciudadano MDW.
+Todos los ciudadanos pueden tener licencia de armas cumpliendo unos requerimientos
+
+¿Cómo se da una licencia de armas y a quién?
+
+Cuando un ciudadano solicita en comisaría la licencia de armas , revisaremos:
+DELITOS GRAVE B (en el perfil podemos ver los delitos)
+No tiene delitos de sangre
+No tenga delitos relacionados con armas de fuego
+
+En caso que tenga delitos de sangre o delitos con armas de fuego NO podrá disponer de licencia de armas.
+
+¿Cómo se la entregamos en caso que cumpla los requerimientos?
+
+
+
+/license en el chat
+Seleccionaremos de la lista “ Licencia de armas “ -> Indicamos State ID del ciudadano -> Price: 5000$ (el mismo que viene default arriba) -> Submit
+En ese momento le llegará un aviso al móvil al ciudadano para que realice el pago.
+
+
+
+Una vez realice el pago , deberemos realizarle una foto al ciudadano + solicitarle el número de teléfono y será introducido en su perfil de la MDW.
+También es aconsejable introducir una nota en su perfil en el momento que se da la licencia de esta manera será más visual ->
+
+
+
+También se introducirá en Discord en el canal de Licencias
+
+
+
+Delitos relacionados con las armas:
+
+Posesión negligente de un arma de fuego
+
+Este delito se imputa cuando un individuo posee un arma de mano registrada a nombre de otra persona y no hay denuncia sobre el robo de la misma. 
+Este delito se imputa al dueño original del arma de fuego. Sin embargo, al portador del arma se le deberá imputar “posesión criminal de un arma de fuego” y los delitos que haya cometido con el arma.
+
+
+
+
+
+
+¿Cómo saber de quién es el arma? 
+
+Primero deberemos abrir el locker de evidencias y añadir el arma.
+Nos dirigimos al Visor de Evidencias
+
+
+Seleccionaremos el arma de la lista de la izquierda y en el margen derecho superior nos indicará si está registrada, o no.
+En caso que si o no lo pondrá de la siguiente manera:
+
+Registrada en nombre de Jarrett Jr  - En este caso NO está registrada                                          ⬇️  						                       ⬇️    
+
+
+
+
+
+
+
+
+
+
+En este caso, si NO hay denuncia por robo / pérdida de arma , se añadiría a Jarrett Jr Rosas orden de arresto por “Posesión negligente de arma de fuego” 
+
+
+
+
+
+
+
+
+
+
+Si no está registrada a nombre de nadie no podremos colocar a nadie en orden de arresto.
+
+
+Redacción de incidentes/reportes
+
+
+Títulos de los incidentes/reportes:
+
+El título de los incidentes/reportes deberá tener el siguiente formato: [Delito más grave] | [Ubicación más importante]
+
+Formato de las pruebas:
+
+Objetos incautados:
+
+[Objeto incautado] a [Nombre (#StateID)]
+
+Fotografías:
+
+Foto ([Número de la foto]) de la zona del aviso
+Foto ([Número de la foto]) de la zona [(Número de zona)] del aviso
+
+Esta última es para incidentes/reportes donde hay más de una zona de tiroteo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Código penal y legislación
+
+Delitos relacionados con la huida:
+
+Resistencia al arresto:
+Este delito se imputa cuando un sujeto huye a pie. 
+Es compatible con la evasión imprudente. ( Huye en coche se le rompe / para se baja y comienza a correr = Evasión imprudente + Resistencia al arresto )
+
+Evasión imprudente
+Este delito se imputa cuando se huye en un vehículo de forma temeraria. Este delito NO es compatible con “Conducción temeraria” y los pasajeros del vehículo de la huida serán imputados por este cargo en calidad de cómplice.
+
+Fuga de la custodia
+Este delito se imputa cuando tengamos a una persona en custodia (Arrestado con esposas) y antes de ser procesada escapa por cualquier motivo. Recordad que debemos saber quien es, revisad State ID.
+Se podría llegar a poner orden de arresto en caso que se nos escape estando en custodia y sabiendo quién es esa persona.
+
+Ejemplos: 
+Huye en coche y se le rompe / para se baja y comienza a correr = Evasión imprudente + Resistencia al arresto 
+En caso de ser copiloto sería CÓMPLICE de Evasión imprudente ya que no conduce.
+- Huye en coche se baja de este y no corre ni se resiste = Solo se le pondría la evasión al no escapar corriendo ni resistirse no se le añadiría resistencia al arresto.
+
+
+
+
+
+
+
+
+
+
+Delitos relacionados con los robos de vehículos, las matrículas y registro del vehículo y SWAP de motor:
+
+Robo de vehículo en primer grado
+Este delito se imputa cuando el sospechoso pretende quedarse el vehículo de forma indefinida. Esto puede inducir sobre todo si el vehículo tiene el VIN borrado. (el VIN no se puede revisar siempre, lo puedes encontrar a continuación)
+
+Robo de vehículo en segundo grado
+Este delito se imputa cuando se roba un vehículo para usarlo de forma temporal.
+
+Fraude en el registro de vehículos
+Este delito se imputa cuando el vehículo que conduce el sospechoso posee una matrícula falsa.
+
+No mostrar las matrículas del vehículo
+Este delito se imputa cuando el vehículo que conduce el sospechoso no lleva ningún tipo de matrícula visible.
+
+Operar un vehículo sin el registro
+Este delito se imputa cuando una persona conduce un vehículo sin los respectivos papeles del mismo.
+
+Operar un vehículo sin registrar
+Este delito se imputa cuando una persona conduce un vehículo que no está registrado o tiene el registro expirado.
+
+
+¿Aviso en el radar de registro expirado en un vehículo?
+
+Si nos ocurre esto es porque el ciudadano NO ha pagado las tasas del coche, si nos dirigimos al perfil del vehículo buscando la matrícula en “ Estado del vehículo “no saldrá la palabra Válido, es decir el ciudadano debe pagar las tasas.
+
+¿Se multará siempre ? A juicio del agente, si la persona paga en el momento con la aplicación de Vehículos del móvil, si refrescamos la página del coche y hacemos un runplate ya saldrá como pagado. NO es necesario hacer “ Unflagplate “ el sistema lo hace automáticamente al pagar las tasas.
+Multa si queréis sancionar: Operar un vehículo sin el registro
+
+
+Uso del VIN y cuando podremos revisarlo
+NO siempre se puede revisar un VIN ( Bastidor ) del vehículo de un delincuente, se tiene que usar de manera correcta. (vehículo bajo nuestra custodia)
+
+Para revisar el VIN hay que dirigirse al capó del coche y nos aparecerá la opción y nos dirá a qué VIN corresponde.
+
+Esto se puede introducir en la MDW - Vehículos para tener la información del coche.
+
+
+¿Cuándo podemos revisar el VIN?
+
+Solo cuando el vehículo esté bajo nuestra custodia. 
+
+Es decir, se ha arrestado a alguien, el aviso se ha terminado y estamos procesado el vehículo o cuando las personas se han escapado. 
+
+En ningún momento se revisará por ejemplo en la puerta de un robo, ya que el coche “” no es nuestro “”
+
+¿Cómo retirar una licencia de conducir y a quien?
+
+En el momento que un ciudadano llega a 15 puntos se le deberá informar en el momento y retirar.
+
+En este caso NO se le retiraría pero si llega a 15 o más SI.
+
+
+Haremos click y seleccionaremos SUSPENDER
+
+
+Añadiremos una nota en el perfil del ciudadano junto a la etiqueta de licencia suspendida
+
+
+
+
+
+
+
+
+
+
+
+¿Cómo recupera el ciudadano la licencia?
+
+En el momento que esa persona baja de los 15 puntos, debe dirigirse a comisaría para que un agente le revoque la suspensión de licencia
+
+
+
+Haremos click en  “Retirar la suspensión“ y en ese momento podrá ir al ayuntamiento a recuperarla. 
+
+Importante quitar la etiqueta de Licencia suspendida y añadir una nota conforme se le revoca la suspensión.
+
+
+
+
+ Multa para vehículos con piezas scratcheadas
+
+Existe alguna multa para cuando una persona tiene piezas scratcheadas en el vehículo? 
+
+Si -> Fraude en el registro de vehículos ( Mayor )
+Ninguna persona podrá manipular, falsificar o eliminar el Número de Identificación Vehicular (VIN) o número de serie de cualquier vehículo o de sus componentes, ni operar un vehículo que haya sido modificado de esta forma. Cualquier vehículo con el VIN o número de serie alterado o eliminado, o con componentes modificados, estará sujeto a incautación por el Estado. Un VIN marcado como “Desconocido” no constituye evidencia suficiente para este cargo.
+
+Aclarar que un ciudadano sí puede tener en su vehículo el motor de otro coche siempre y cuando esté todo legal. No podrá tener piezas scratch pero comprarme una Scout y ponerle el motor del buffalo siempre y cuando esté todo legal si se puede.
+
+
+¿Cómo comprobaré esto y cuando?
+
+Igual que no revisas el VIN en mitad de un robo, no se revisa esto.
+El coche tiene que estar bajo custodia policial.
+
+Con el ALT -> Check Engine VIN -> Veremos si coincide o no. 
+De lo contrario será Fraude en el registro de vehículos ( Mayor )
+
+
+Recordad que hay 2 multas para no confundiros, la MAYOR es para piezas scratch y la MENOR es cuando porta una matrícula falsa. 
+
+¿Se pueden poner las dos? Si, ya que como digo cada multas es para cosas diferentes.
+
+Al incautar el vehículo se seleccionará siempre la multa más alta, es decir la mayor. (En caso que pongas las dos)
+
+
+Delitos relacionados con las drogas:
+
+Ley S.M.I.T.H
+
+En esta legislación se especifica cuál es la cantidad máxima para un delito leve y la cantidad mínima para un delito grave con cada sustancia peligrosa y controlada. 
+En caso de poseer +1000 unidades  se aplicará directamente el delito de “Posesión grave de una sustancia controlada y peligrosa con intención de distribuir”.
+
+Si hubieran sustancias peligrosas y controladas sin cantidades especificadas se debe retirar dicha sustancia pero no sancionar. A menos que cumpla con la norma de las 5 libras especificada en la legislación.
+
+Existen diferentes variables a la posesión como la compra o el cultivo, si la persona admite haber hecho cualquiera de las dos anteriores se deberá aplicar los delitos de “Compra de una sustancia controlada y peligrosa” o “Fabricación de una sustancia controlada y peligrosa” respectivamente.
+
+La sustancia estupefaciente más común que podemos encontrar es el Cannabis.
+
+Cannabis , como sancionar y cuánto se puede portar
+
+La cantidad legal que se puede portar es de 0 a 3 unidades. 
+Desde las 3 unidades a las 129.9 unidades se considera un delito en segundo grado 
+A partir de los 129.9 unidades se considera delito en primer grado. 
+
+Ejemplos:
+Sujeto porta 15 porros (Cada porro es 1 unidad) = Delito en segundo grado.
+Arrestado porta 250 unidades = delito en primer grado
+
+La Ley S.M.I.T.H también dictamina: 
+Cualquier sustancia estupefaciente en cantidad de 1000 unidades será sancionada con posesión de una sustancia peligrosa y controlada con intención de distribuir. 
+Eso aplica a una combinación de sustancias
+¿Si una persona vende paquetes se le añadirá el delito de venta de una sustancia controlada y peligrosa?
+
+Si, tal como indica el código penal:
+Ninguna persona deberá vender, suministrar, administrar o entregar cualquier sustancia incluida en las Listas de Sustancias, salvo que esté exenta por la Ley de Monitoreo de Sustancias y Manejo de Tráfico Ilícito.
+
+Importante: debemos adjuntar fotografía de la causa probable, no sirve añadirle el delito sin la prueba. 
+
+Tabla de drogas y unidades
+
+Dirigirse a MDW -> Legislación -> Ley SMITH para consultar la tabla con las unidades.
+
+
+Delitos relacionados con robos:
+
+Robo con allanamiento de una propiedad
+Este delito se imputa cuando un sospechoso roba una casa y se puede demostrar. 
+El código 10 que representa esta situación en el dispatch es 10.31.
+
+Robo en primer grado
+Este delito se imputa cuando se realizan robos de seguridad baja 
+
+Robo en segundo grado
+Este delito se imputa cuando se realiza un robo de seguridad media 
+
+Robo a una institución de alto valor
+Este delito se imputa cuando se realiza de seguridad alta 
+
+
+
+
+
+
+Delitos relacionados contra las personas:
+Tabla de agresiones y homicidios
+
+Link directo a la tabla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Delito relacionado con la posesión de armas
+
+
+Hay dos multas por acumulación / posesión de varias armas.
+
+Acumulación menor de armas -> 6 armas o más
+Acumulación mayor de armas -> 15 armas o más
+
+Ninguna persona podrá poseer seis (6) / (15 si es mayor) más armas de fuego si tiene prohibido poseerlas por ley estatal o si estas no están registradas. La posesión incluye el almacenamiento en cualquier vehículo o propiedad bajo su control.
+
+Es decir, si dentro del coche las tiene también se le incluiría y si es su propiedad también.
+
+Uso de arma de fuego automática
+
+ Se usará como dice el delito cuando el delincuente usa una arma automática:
+
+Ninguna persona podrá utilizar un arma de fuego con capacidad de disparo automática para ningún propósito ilegal, incluyendo el uso sin certificación o licencia correspondiente, o sin una justificación legal válida otorgada por la autoridad del Estado de San Andreas.
+
+
+
+Delitos relacionados con la aviación:
+
+Operar una aeronave bajo los efectos del alcohol o drogas
+Este delito se imputa cuando la persona tiene signos visibles y/o demostrables de conducir una aeronave bajo los efectos de sustancias. Un indicativo puede ser el status de la persona, pupilas dilatadas etc…
+
+Robo de una aeronave
+Este delito se imputa cuando una persona roba la aeronave de otra persona, la conduzca o no.
+
+
+Tips en general
+
+
+Sistema judicial
+Es importante destacar que todos los detenidos tienen derecho a un abogado dado que no existe el delito flagrante. Para ello, se revisa la app del City Hall/Directorio en búsqueda de uno. Es importante respetar el tiempo que tiene el abogado para hablar con su cliente de forma privada, unos 10 minutos.
+
+
+Botín de los robos
+
+Cualquier objeto que sea botín de un robo, no importa que sean armas u otro tipo de objetos, son de carácter de incautación pero no penados administrativamente. 
+Es decir, no se les imputa ningún delito por el botín.
+
+
+Bloqueos y sus delitos
+
+Cuando un sujeto realiza un bloqueo en cualquier huida será considerado cómplice del delito del aviso y además se le tendrá que imputar “Obstrucción intencional de la justicia”. 
+
+Por ejemplo: En un robo medio se le deberá imputar “Robo en segundo grado” como cómplice y “Obstrucción intencional de la justicia” + lo que porte
+
+
+Diferencias entre robos
+
+Durante un robo habitual, un 10-90 (LTD’s, joyerías, barberias etc), el responsable del robo del vehículo es el conductor. 
+Sin embargo, durante un robo específicamente dedicado a robar un vehículo, como un 10-99B o 10-99C todos serán partícipes del robo en sí. Por ende, el conductor será imputado por “Robo de vehículo en x grado” y los pasajeros por “Robo de vehículo en x grado” como cómplice.
+
+Ejemplos:
+Robo de una barbería: Al conductor se le añadiría robo de vehículo en segundo grado y al copiloto NO.
+Aviso de 10-99A/B/C: Al conductor se le añadiría robo de vehículo y a los acompañantes como CÓMPLICE.
+
+
+Niveles de fuerza
+Los niveles de fuerza se comprenden por una situación donde se exige un mínimo y se tolera un máximo. Es decir, tenéis la libertad de hacer lo que queráis dentro de esos límites. Aun así, cualquier situación justificada que se salga del protocolo sigue siendo válida. Recordad que esto es muy ambiguo.
+
+Link a la tabla de reacciones mínimas y máximas
+
+
+Robos cerrados
+
+
+Se puede tomar la muestra de ADN al individuo en el procesado siempre siguiendo los SOPS de cuando tomar ADN
+No se puede usar sangre del suelo ni vehículos como evidencia para generar warrants en roles cerrados *
+
+*Excepción de que estén previamente catalogados como pandillas.
+
+Es decir, solo se podrá warrant a personas previamente catalogadas como pandillas por el CID ( revisar etiqueta perfil ). En tal caso si, por ejemplo delito de Colaborador en el robo si su coche se lo ha dejado a un miembro de la pandilla para robar.
+
+Si no eres agente del CID NO debes colocar la etiqueta de X pandilla a un ciudadano, los encargados son ellos.
+
+Ejemplo: Roban ammunation con un cohete, hemos detenido a Pepito que está catalogado en su perfil como la pandilla “ SAPD Gvng” 
+Una vez es procesado el cohete vemos que pertenece a Michael Jordan que también tiene la etiqueta de “ SAPD Gvng” debido a esto SI que se podrá a Michael Jordan en Orden de arresto por Colaborador del robo en segunda grado.
+
+Unidades en avisos
+
+Los robos son roles CERRADOS, si resultamos abatidos tiraremos un 10-13C. 
+
+Unidades en robos de seguridad baja:
+4 unidades.
+
+Unidades en robos de seguridad media:
+5 unidades. (2 interceptores, sin helicóptero).
+
+Unidades en robos de seguridad alta:
+5 unidades + helicóptero (2 interceptores + helicóptero). 
+NO puede haber 6 unidades en tierra.
+
+Unidades en tiroteos entre civiles o entre pandillas:
+6 Unidades
+
+
+A continuación del documento se adjunta una imagen con los delitos a imputar.
+
+Resto de roles de mundo abierto
+3 unidades (Salvo indicación expresa de Command) o que por ejemplo en una persecución se vayan sumando vehículos ayudar, podremos pedir 77 en proporción.
+
+En cualquier reporte/incidente donde se encuentre ADN y no sea un robo se podrá crear una órden de arresto contra esa persona adjuntando los cargos como cómplice.
+
+Los cargos en estas órdenes de arresto han de ser consecuentes con las acciones que se pueden inculpar, no podemos poner posesión de un arma de fuego dado que no tenemos el arma para demostrarlo. Lo mismo sucede con la evasión imprudente.
+
+En un “ rol de mundo abierto “ es decir NO ROBOS si podremos usar 13A si nos abaten.
+
+Prescripción de los delitos y órdenes de arresto
+Los plazos de prescripción se establecen de la siguiente forma:
+
+
+Se aplicará el plazo de prescripción más largo correspondiente a cualquiera de los delitos imputados.
+Es decir, si ha cometido 2 delitos, uno indica 2 días y hay otro de 4 días, el warrant sería de 4 días.
+El plazo de prescripción para recurrir cualquier asunto penal será de veintiún (21) días. El solicitante podrá solicitar una prórroga al tribunal.
+Las órdenes de arresto podrán ser emitidas por cualquier agente de la paz del Estado de San Andreas cuando exista causa probable.
+Una vez expirada una orden de arresto, no podrán formularse cargos contra el sospechoso en relación con el incidente correspondiente.
+Otros
+
+Reparar
+Se puede usar el benny’s para reparar siempre y cuando no exista un taller abierto (F1 - REPARAR). Para golpecitos también tenemos los KITs.
+
+Intoxicación pública
+
+Este delito se utiliza cuando se drogan delante tuyo / están borrachos.
+Intoxicación forzada
+
+Este delito se utiliza cuando te drogan o te fuerzan a ello.
+
+Detector de emisiones
+
+En robos:
+
+Se tendrá que utilizar obligatoriamente para saber fehacientemente el SMOG rating del vehículo y poder ajustar el vehículo de la forma más justa. Si los sujetos se niegan a realizar la detección de emisiones no se les dejará salir del establecimiento.
+
+Los delincuentes NO ELIGEN el patrulla el cual les persigue. 
+Nosotros tenemos que saber a qué coche podemos seguir y con que patrulla. 
+Si se quejan nosotros seguimos concentrados en nuestro trabajo.
+
+
+Agravante POGS
+¿Hay alguna multa extra cuando abaten a muchos agentes del SAPD o civiles?
+Si, Agravante POGs y Agravante POGs a un empleado gubernamental.
+Este agravante NO se pone en tiroteos de pandillas.
+
+abatir a 5 o más empleados gubernamentales mediante el uso de un arma de fuego, con malicia. Esto se imputará como un agravante del delito subyacente en cualquier incidente en que sea aplicable. Se impondrá una instancia adicional de este agravante por cada 3 empleados gubernamentales incapacitados adicionales.
+
+REMOLCAR COCHES / GRUA / IMPOUND CUANDO NO HAY GRUISTAS
+
+En caso de que no haya gruistas 
+( revisar Directorio + esperar siempre un tiempo prudencial, no 1 minuto y ya vayáis a por la grúa ), podremos sacar una grúa que tenemos en el parking de Mission Row.
+
+Paso 1: Una vez la tengamos debemos ir al vehículo a remolcar y seleccionar 
+“remolcar vehículo”
+
+
+Paso 2: Dirigirnos a  la grúa y “ Enganchar Vehículo” y se subirá. Para desengancharlo desde la misma grúa también tendremos la opción de soltarlo.
+
+
+
+Una vez terminemos iremos a la zona roja del suelo y podremos impoundear el vehículo.
+Para poder confiscar el coche será necesario entrar de servicio de las grúas. NPC en la esquina diferente al del alquiler de grúas.
+
+Una vez finalicemos aparcamos la grúa en MR como si de un patrullar se tratara.
+
+
+Incautación de vehículos (Impound)
+
+En caso de deber incautar un vehículo en un reporte/incidente deberemos tomar fotografías del mismo donde se vea por lo menos una patente, fotografiar las marcas de forzado e introducir la copia azul al locker de evidencias. 
+Si es una incautación a un NPC se puede no abrir reporte/incidente y meter la copia al libro de citaciones.
+
+Uso 13A/13B/13C
+
+Se estipula el uso del 10-13A, 10-13B y 10-13C de la siguiente manera.
+
+- 10-13A: Se podrá usar siempre en todos los avisos menos en 10-90, robos boosting y robos de cajeros.. 
+Podrán acudir las unidades necesarias a socorrer al compañero abatido y el mando del aviso tendrá que organizar las unidades y situación.
+
+- 10-13B: Uso de siempre, aviso no prioritario. Por ejemplo, me ha explotado la gasolinera o me he caído por un precipicio.
+
+- 10-13C: Se usará sólo cuando nos abaten en un 10-90 de esta manera los compañeros del aviso del robo sabrán que tienen compañeros abatidos. Las demás unidades fuera del 10-90 no acudirán salvo que expresamente el mando del operativo lo indique por canal 1. 
+
+Llamados de 10-13
+
+Cuando se acude a un 10-13 no se debe informar por CH1. 
+Se deberá acudir a la CH del aviso en silencio para no desorientar al resto de unidades y esperar indicaciones para actuar. También se pide proactividad, y estar atento a las necesidades que se digan por radio.
+
+Arrestado inconsciente en el hospital ¿que hacer?
+
+Si un arrestado queda inconsciente en el hospital y no puede ser procesado se hará lo siguiente
+En el incidente se colocará la etiqueta “ Arrestado hospitalizado“
+Dejar una nota en el perfil del ciudadano indicando esto + núm incidente
+Agregar el ciudadano al incidente colocando los cargos SIN MULTAR , solo se dejarán reflejados
+Hablar con los EMS de que esta persona tiene que ser procesada que nos avisen en el momento que le den el alta.
+Procesarlo en comisaría con los cargos que se establecieron el día de los hechos.
+
+Portar grandes cantidades de billetes 
+
+¿Puede una persona portar mucho dinero encima? Depende
+
+Ninguna persona podrá poseer, transportar u ocultar en su persona o en otras relacionadas, vehículo, propiedad. dinero en efectivo por un valor igual o superior a $2,000.00 sin poder justificar su origen legítimo en el momento de una intervención policial. En caso de que el individuo alegue haber encontrado dichos fondos, el no haberlos reportado o entregado inmediatamente a las autoridades competentes constituirá una infracción de esta ley. ( Este cargo no se aplicará si viene de un robo en primer,segundo grado o a una entidad financiera )
+
+Ejemplos:
+Realizamos una parada de tráfico, con motivo cacheamos al chico o registramos el coche. Porta la cantidad o más que indica el cargo, en ese momento se le sanciona tal como se indica.
+
+Tras un 10-90 se le arresta y porta 3.000$ en ese caso NO se le quita. 
+FOTOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SIEMPRE SE RECOGEN EVIDENCIAS PERO:
+
+

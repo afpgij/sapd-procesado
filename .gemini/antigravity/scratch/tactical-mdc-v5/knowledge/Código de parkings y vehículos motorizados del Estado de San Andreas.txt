@@ -1,0 +1,234 @@
+Código de parkings y vehículos motorizados del Estado de San Andreas
+
+Índice:
+
+Sección 001 | Límites de velocidad
+
+Sección 002 | Licencias
+
+Sección 003 | Estacionamiento no autorizado
+
+Sección 004 | Parquímetros
+
+Sección 005 | Vehículos especiales
+
+Sección 006 | Normativa de depósitos (impound)
+
+Sección 007 | Exenciones varias en materia de remolque
+
+Sección 001 | Límites de velocidad
+
+Salvo que se indique expresamente un límite superior mediante señalización, los límites de velocidad serán los siguientes:
+
+Vía
+
+Límite
+
+Vías públicas o calles dentro de los límites de la ciudad de Los Santos
+
+50 MPH
+
+Vías públicas o calles del Condado de Blaine
+
+65 MPH
+
+Autopistas o autovías dentro del Estado de San Andreas
+
+80 MPH
+
+Vías públicas o calles de Paleto (no autopista)
+
+69 MPH
+
+La Ruta 68 se considerará autopista/autovía dentro del Estado de San Andreas.
+
+Sección 002 | Licencias y sanciones de vehículos
+
+Licencias de conductor y motocicleta
+
+Todas las personas que operen vehículos a motor deberán estar en posesión de una licencia de conducir válida y de una tarjeta de identificación estatal física.
+
+Todas las personas que operen motocicletas o ciclomotores deberán poseer adicionalmente una licencia de motocicleta válida. Las licencias de motocicleta se considerarán una extensión de la licencia de conducir, y todos los puntos por infracciones de tráfico cometidas al operar una motocicleta se acumularán en la licencia de conducir del titular. Asimismo, será obligatorio disponer de una licencia de conducir válida para operar una motocicleta.
+
+Las licencias de conducir caducarán a los 60 días; las licencias de motocicleta caducarán a los 12 meses.
+
+Las licencias de conducir no podrán ser retiradas por causa probable de haber sido utilizadas en la comisión de un delito, a diferencia de otras licencias. En su lugar, la licencia de conducir será suspendida cuando se acumulen quince (15) puntos por distintas infracciones. Los puntos de la licencia de conducir caducarán a los veintiún (21) días desde su anotación.
+
+Los ciclomotores, patinetes motorizados y otros vehículos de baja potencia no requerirán licencia de motocicleta para su conducción.
+
+Licencias de conducir comerciales
+
+Todas las personas que participen en la operación de servicios de grúa estatales o privados deberán estar en posesión de una licencia de conducir comercial (A) válida y no suspendida, así como de una tarjeta de identificación estatal física.
+
+Las personas con la licencia comercial (A) suspendida podrán permanecer en depósitos públicos o estatales y asistir en la liberación de vehículos incautados, pero en ningún caso podrán participar en tareas de remolque fuera del recinto del depósito.
+
+Al acumular tres (3) puntos, la licencia comercial (A) será suspendida. Los puntos de la licencia comercial (A) caducarán a los veintiún (21) días desde su anotación.
+
+Sanciones aplicables a vehículos (Vehicle Strikes)
+
+Todo vehículo utilizado en la comisión de determinados delitos tipificados será objeto de una sanción (strike) por parte de las fuerzas del orden cuando exista causa probable. Los delitos que conllevan sanción estarán indicados en la entrada correspondiente del código penal.
+
+En incidentes que incluyan múltiples infracciones aplicables, prevalecerá la infracción que conlleve el mayor número de sanciones para la totalidad del incidente.
+
+Las sanciones a vehículos caducarán a razón de una (1) sanción cada veinticuatro (24) horas desde su imposición. Las sanciones se acumularán únicamente tras la incautación legal del vehículo.
+
+El coste de liberación de un vehículo con sanciones se incrementará en mil dólares (1.000,00 USD) por cada sanción impuesta. Para la mayoría de infracciones que generan sanciones, se añadirá además una tasa adicional de liberación de doscientos cincuenta dólares (250,00 USD) por sanción, aplicable con independencia del número de sanciones existentes en el momento de la liberación.
+
+Excepciones:
+
+Conducción de un vehículo no registrado: incremento de 4.000,00 USD.
+
+Conducción de un vehículo bajo SORN: incremento de 7.500,00 USD
+
+Cualquier persona cuyo vehículo acumule quince (15) o más sanciones en un mismo momento quedará sujeta a la incautación definitiva del vehículo por parte del Estado de San Andreas.
+
+Sección 003 | Estacionamiento no autorizado
+
+Será ilegal detener, estacionar o dejar un vehículo en cualquiera de las siguientes circunstancias::
+
+Obstruyendo un hidrante o señal de “Prohibido estacionar” (dentro de 10 pies).
+
+Bloqueando accesos o salidas de propiedades públicas o privadas.
+
+Sobre vías ferroviarias o tranviarias.
+
+Ocupando múltiples plazas señalizadas.
+
+Sobre aceras, bordillos o medianas centrales.
+
+En sentido contrario al de la circulación.
+
+Obstruyendo una vía pública o carretera.
+
+En propiedad residencial, comercial o pública sin autorización.
+
+Sobre césped o jardines de edificios públicos.
+
+Dentro de pasos de peatones señalizados.
+
+Junto a bordillos rojos o amarillos dentro de los límites urbanos.
+
+El término “junto a” incluye cualquier parte del vehículo dentro de la zona roja o amarilla. Salvo que exista un parquímetro o señalización en el pavimento que indique plaza autorizada. Todo vehículo en infracción quedará sujeto a remolque, salvo que se apliquen exenciones conforme a este Código.
+
+Sección 004 | Parquímetros
+
+Toda persona que estacione en una calle o plaza dotada de parquímetro deberá abonar el parquímetro correspondiente. Los vehículos estacionados frente a múltiples parquímetros no se considerarán como ocupando múltiples plazas.
+
+Los parquímetros deberán abonarse en el lado delantero del pasajero, así como todos los parquímetros directamente obstruidos por el vehículo. Todo vehículo estacionado en una plaza con parquímetro no abonado o expirado quedará sujeto a remolque, salvo exenciones.
+
+Sección 005 | Vehículos especiales
+
+Vehículos de emergencia:
+
+Los vehículos de emergencia autorizados estarán exentos de este Código cuando:
+
+Tengan luces o sirenas activadas y respondan a una emergencia.
+
+Participen en la detención de sospechosos, deudores o animales peligrosos.
+
+Realicen funciones activas de control del tráfico.
+
+Estén estacionados en o junto a dependencias oficiales (comisarías, hospitales, parques estatales, prisiones).
+
+Se considerarán SA Exempt aunque no porten matrícula específica. Incluyen vehículos policiales, sanitarios, de bomberos y control animal. No estarán obligados a pagar parquímetros ni podrán ser remolcados por falta de pago.
+
+Vehículos comerciales:
+
+Los vehículos comerciales (furgones mecánicos, grúas, saneamiento, etc.) estarán exentos mientras desempeñen razonablemente su actividad.
+
+Vehículos recreativos (RVs):
+
+Los RV deberán permanecer operativos y móviles, sin conexión a servicios y con toldos recogidos cuando:
+
+Se encuentren dentro de límites urbanos o parques protegidos.
+
+Estén en plazas designadas o junto a bordillos de hormigón.
+
+Bloqueen caminos sin pavimentar.
+
+Estén a menos de 15 pies de agua o propiedad privada/comercial sin permiso.
+
+Los RV que incumplan quedarán sujetos a remolque.
+
+Food Trucks:
+
+Los Food Trucks estarán exentos de infracciones por estacionamiento cuando:
+
+Ocupen múltiples plazas.
+
+Estén orientados en sentido contrario.
+
+Estén sobre terrenos públicos con autorización del Alcalde.
+
+Vehículos abandonados:
+
+Se considerarán abandonados los vehículos inmóviles durante más de una (1) hora, salvo que:
+
+Estén ocupados.
+
+Sean Food Trucks en operación.
+
+Sean RVs conformes a este Código.
+
+Sean vehículos de emergencia.
+
+Estén en plazas designadas o parquímetros pagados.
+
+Estén en propiedad privada o residencial.
+
+Sección 006 | Normativa de depósitos
+
+Liberación anticipada
+
+Deberá ofrecerse liberación anticipada salvo cuando:
+
+El propietario no esté presente.
+
+El vehículo sea inoperativo.
+
+Exista amenaza criminal o violencia contra el operador de la grúa.
+
+El depósito sea solicitado por la Policía.
+
+Recibos de depósito
+
+Todo remolque deberá emitir recibo:
+
+Los recibos policiales deberán incluir pruebas o número de informe.
+
+Los recibos privados deberán incluir imágenes del vehículo y el motivo del remolque.
+
+Los operadores privados no están obligados a verificar órdenes policiales.
+
+Tasas estatales
+
+Liberación: máx. 250 USD
+
+Liberación anticipada: máx. 75 USD
+
+Vehículos SA Exempt exentos.
+
+Los operadores estatales gozarán de inmunidad frente a responsabilidad civil o penal por remolque legítimo.
+
+Depósitos privados
+
+Liberación: máx. 300 USD
+
+SA Exempt: máx. 100 USD
+
+Deberá inventariarse el contenido. El depósito privado será responsable por pérdidas, daños y contrabando.
+
+Vehículos pendientes de incautación estatal
+
+Podrán ser retirados por Seguridad Pública 10 días después de ser marcados, sin orden de registro.
+
+Sección 007 | Exenciones varias de remolque
+
+Vehículos implicados en delitos
+
+No podrán ser remolcados salvo a solicitud policial o una vez despejada la zona.
+
+Vehículos en propiedad privada
+
+El propietario podrá autorizar estacionamiento. Solo serán remolcados a solicitud del propietario, por orden policial, o por riesgo para la seguridad pública.
+

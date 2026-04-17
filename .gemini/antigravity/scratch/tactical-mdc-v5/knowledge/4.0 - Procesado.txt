@@ -1,0 +1,84 @@
+4.0 - Procesado
+
+Instrumentos mínimos obligatorios
+
+Para recoger pruebas en una escena se precisan de los siguientes instrumentos:
+
+Instrumento
+
+Función
+
+Caja de bolsitas de evidencia:
+
+Una caja que contiene 20 bolsitas de evidencias con una etiqueta en blanco.
+
+Cámara de fotos:
+
+De uso obligatorio para documentar la escena del crimen, debe verse el overlay y no configurar la cámara quitando el mismo.
+
+Linterna:
+
+Instrumento que ilumina para observar mejor las pruebas y su tipología
+
+Recogida de pruebas en la escena
+
+En primer lugar precisaremos de realizar fotografías con la cámara de fotos a todos los puntos de la escena del crimen.
+
+En segundo lugar deberemos coger una bolsita de evidencias de nuestra caja y la titularemos con “Incidente” o “Reporte” + [Nº de reporte]. Ejemplo: Incidente #1002.
+
+Tras abrir la bolsa de evidencias alumbraremos con la linterna y recogeremos todas las pruebas de la escena. Para finalizar cerraremos la bolsita de evidencias.
+
+Ejemplo de fotografía tomada en la escena de un crimen:
+
+Catalogación de evidencias
+
+Para catalogar las evidencias haremos uso de la MDW. Por lo tanto, en el incidente/reporte correspondiente acudiremos al apartado “evidence” y haciendo tap en los 3 puntos saldrán diferentes opciones:
+
+Opción
+
+Explicación
+
+Nos permitira añadir una imagen y una descripción de la misma, el formato de las fotografías iran dependiendo su tipología.
+
+El formato estipulado para las escenas de tiroteo son:
+
+En caso de solo existir una zona de tiroteo:
+
+Foto (X) de la escena de tiroteo | Donde X es el nº de la fotografía
+
+En caso de existir dos o más zonas de tiroteo:
+
+Foto (X) de la zona (Y) de tiroteo | Donde X es el nº de fotografía e Y es el nº de la zona de tiroteo/escena del crimen.
+
+Nos permitira añadir una alerta del Dispatch como evidencia al Incidente/Reporte.
+
+Acceso al locker de evidencias.
+
+Acceso al visor de evidencias.
+
+Acceso a la realidad virtual del CSI (Uso exclusivo del CID)
+
+Locker de evidencias
+
+En el locker de evidencias podremos introducir todo tipo de evidencia tangible conseguida de un mismo incidente/reporte, todo lo que metamos dentro del mismo sera catalogado automaticamente. Evidencias como; casquillos, proyectiles, adn o fragmentos de vehiculos que van introducidos en bolsas necesitan documentarse junto a las fotos de la zona mencionadas anteriormente. Por otra parte, cualquier otra evidencia tangible incautada como; Armas de fuego, armas blancas/contundentes, ganzuas etc precisan de ser nombradas en el visor de evidencias.
+
+Visor de evidencias
+
+El visor de evidencias funciona como un centro de catalogación de evidencias. Toda evidencia que se encuentre en el locker del incidente/reporte podrá ser renombrada proporcionando información útil como el portardor de un arma.
+
+Opción
+
+Función
+
+Designar qué fue incautado y a quien.
+
+Ejemplos:
+
+Cualquier objeto incautado:
+
+“Incautado a Nathaniel Reed (#1016).”
+
+Es muy importante darle al botón de guardar.
+
+Resultado final en ‘evidence’.
+

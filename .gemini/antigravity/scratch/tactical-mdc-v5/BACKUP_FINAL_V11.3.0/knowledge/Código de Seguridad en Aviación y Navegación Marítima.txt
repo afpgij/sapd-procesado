@@ -1,0 +1,116 @@
+Código de Seguridad en Aviación y Navegación Marítima
+
+El Código de Seguridad en Aviación y Navegación Marítima tiene como objetivo mantener los más altos estándares de seguridad y sostenibilidad en los cielos y mares del Estado de San Andreas. Su propósito es proteger vidas, resguardar la navegación y preservar el medio ambiente. Mediante la supervisión proactiva y la dedicación constante a la seguridad y confiabilidad, se busca garantizar que cada viaje, ya sea aéreo o marítimo, se desarrolle de manera segura y fluida para todos los ciudadanos.
+
+Sección 001 | Ley de Responsabilidad de Aviadores (A.A.)
+
+(A) Zonas de Vuelo Restringido
+
+Hospitales.
+
+Estaciones de Policía.
+
+Penitenciaría Bolingbroke.
+
+Base Militar Fort Zancudo.
+
+Instalaciones Humane Labs y de Investigación.
+
+USS Luxington (ATT-16).
+
+(B) Vehículos Capaces de Volar
+
+Se consideran vehículos capaces de volar, entre otros:
+
+Aviones.
+
+Dirigibles.
+
+Planeadores.
+
+Ala delta
+
+Helicópteros
+
+Globos Aerostáticos.
+
+Vehículos aéreos personales.
+
+Se entiende que la regulación de aeronaves y aviación abarca cualquier vehículo, con o sin motor, capaz de volar, incluyendo helicópteros, aviones y paracaídas.
+
+(C) Licencias
+
+Las licencias de Helicóptero y de Ala Fija (Fixed-Wing) podrán ser emitidas por cualquier Juez, Magistrado, Justicia Suprema, la Oficina del Alcalde, la Oficina del Gobernador o un Instructor de Vuelo Autorizado. Todas las personas que operen cualquier aeronave dentro del Estado de San Andreas deberán obtener y portar físicamente la licencia correspondiente (helicóptero o ala fija) según el tipo de aeronave que operen. Las licencias de Helicóptero y Ala Fija solo podrán emitirse o reemitirse tras aprobar una prueba de vuelo en una escuela de vuelo aprobada. Al obtener la licencia de Helicóptero o Ala Fija, el piloto deberá registrar un indicativo de llamada (call-sign) que quedará reflejado en su perfil MDW.
+
+(D) Aeropuertos y Pistas de Aterrizaje
+
+Las aeronaves podrán despegar y aterrizar únicamente en ubicaciones designadas, generalmente un aeropuerto público o pista de aterrizaje. Otras ubicaciones solo podrán considerarse para despegue o aterrizaje con el permiso del propietario, un agente autorizado o el ocupante legal, o en caso de emergencia, como la imposibilidad de mantener vuelo propulsado.
+
+Queda prohibido aterrizar en propiedades residenciales salvo que exista autorización expresa de la Oficina del Alcalde o de la Oficina del Gobernador.
+
+(E) Excepciones para Vehículos de Emergencia
+
+Las aeronaves de Servicios de Emergencia, o aquellas que cuenten con Números de Cola Exentos SA, están exentas de restricciones para vuelos dentro y fuera de Espacios Aéreos Restringidos.
+
+Sección 002 | Ley de Operaciones y Seguridad Marítima (S.O.S.)
+
+(A) Límites de Velocidad en Aguas Territoriales del Estado
+
+Zona sin Estela
+
+30 MPH
+
+Las infracciones por exceso de velocidad aplicables a vehículos terrestres también podrán aplicarse a vehículos en el mar.
+
+Las Aguas Territoriales del Estado se definen como una zona de 3222 pies alrededor de la isla.
+
+(B) Canales Estrechos o Zonas Prohibidas
+
+Canales Estrechos: áreas donde la navegación puede estar restringida por razones geográficas o ecológicas, tales como cauce angosto o poca profundidad, consideradas como Zonas de No Wake. Zonas Restringidas y Prohibidas: no permiten tráfico marítimo civil salvo que se indique lo contrario.
+
+Canales Estrechos:
+
+Ríos Estatales
+
+Los vehículos marítimos de mayor tamaño solo podrán trasladarse hacia y desde el Alamo Sea a través del Río Cassidy Trail.
+
+Zonas Restringidas:
+
+Aeropuerto Internacional de Los Santos
+
+Parques Estatales Protegidos
+
+Fort Zancudo
+
+Instalaciones Humane Labs y de Investigación
+
+USS Luxington
+
+(C) Derecho de Paso
+
+Los buques no motorizados (por ejemplo, veleros) tienen prioridad sobre los barcos a motor, debido a que son menos maniobrables. Cuando dos embarcaciones motorizadas se cruzan, el barco situado a estribor (derecha) tiene el derecho de paso, mientras que el de babor (izquierda) debe ceder.
+
+Los barcos deben ceder el paso a embarcaciones que operen en zonas restringidas, como rutas de transporte comercial o áreas de pesca.
+
+Las embarcaciones con maniobrabilidad restringida siempre tienen prioridad. Esto incluye:
+
+Embarcaciones comerciales de pesca activamente faenando.
+
+Grandes barcos en canales estrechos.
+
+Embarcaciones que tiren de otras o realicen dragado.
+
+(D) Límite Máximo de Pasajeros
+
+Ninguna embarcación marítima podrá transportar más pasajeros que asientos disponibles, salvo en embarcaciones sin asientos fijos, como remolcadores.
+
+(E) Inspecciones e Interdicciones
+
+Todas las embarcaciones que ingresen a las Aguas Territoriales de San Andreas podrán ser registradas por las autoridades para la detección de carga considerada contrabando.
+
+Las fuerzas de seguridad podrán realizar inspecciones portuarias o interdicciones en alta mar con el fin de prevenir la llegada de contrabando a las costas de San Andreas, siempre que exista sospecha razonable de su presencia.
+
+(F) Excepciones para Vehículos de Emergencia
+
+Las embarcaciones de Servicios de Emergencia Marítima y sus operadores están exentos de restricciones de ingreso cuando operen en respuesta a llamadas de emergencia, participen en operaciones de rescate, o estén exentos por disposición legal.
+

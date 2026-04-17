@@ -1,0 +1,228 @@
+1.1.1 - Organización estructural
+
+Estructura jerárquica
+
+DPS
+
+Director del DPS
+
+High Command
+
+Jefe de Policía
+
+Comandante
+
+Command
+
+Capitán
+
+Teniente
+
+Supervisors
+
+Sargento II
+
+Sargento
+
+Patrulleros
+
+Oficial Sénior
+
+Oficial II
+
+Oficial
+
+En pruebas
+
+Oficial en pruebas
+
+Cadete
+
+Responsabilidad del mando
+
+Salvo indicación directa de High Command y/o Command el oficial que tomará el mando en los avisos policiales será el de mayor rango dentro del mismo. De todas formas, ese mismo oficial podrá elegir a otros de igual o menor rango para que tomen ellos el liderazgo del aviso.
+
+En la escena de un homicidio o muerte sospechosa, el miembro ideal para asumir el mando será un Sargento II, si no existiera un Sargento II de servicio deberá tomar el mando uno de mayor rango.
+
+El mando de un aviso deberá:
+
+Dirigir, orientar, formar, supervisar y evaluar al personal en sus funciones asignadas.
+
+Proporcionar liderazgo y actuar como guía.
+
+Respaldar a quienes desempeñan sus funciones; tratar con justicia y equidad a todo el personal y, cuando sea necesario, corregir de forma digna.
+
+Recomendar medidas remediales o disciplinarias respecto de miembros ineficientes, inoperantes o no aptos.
+
+Garantizar el cumplimiento y la observancia de todos los Procedimientos Operativos Estándar.
+
+Mantenerse responsables por cualquier falla, mala conducta u omisión del personal a su cargo.
+
+1.1.2 - Asuntos de personal
+
+Contratación/Formación
+
+La contratación y formación de nuevos Oficiales de la paz se regulan en los SOPs referidos a la Field Training Division.
+
+Reasignación/Traslado
+
+Los miembros con mínimo el rango Oficial pueden solicitar, a su discreción, reasignación interna o traslado a otro departamento. La cadena de mando deberá ser informada y deberá aprobarlo antes de que el miembro cumpla con el proceso. El tiempo establecido para solicitar una reasignación o un traslado esta marcado en 90 días naturales.
+
+Política de ascensos
+
+El ascenso de Oficial en pruebas a Oficial es competencia de la Field Training Division. Los ascensos por encima de Oficial quedan a discreción de High Command y Command.
+
+Política de renuncias y cese
+
+Los Oficiales de la paz que renuncien no podrán ser recontratados por el DPS durante dos semanas (14 días naturales). Si el cese obedece a desempeño policial deficiente, demandas civiles, infracciones de políticas o hechos delictivos, el LEO deberá someterse a un panel de contratación.
+
+1.1.3 - Medidas disciplinarias
+
+Acciones no disciplinarias:
+
+Los Supervisores deben intentar resolver deficiencias laborales mediante; coaching, asesoramiento y formación. Además, los Supervisores deben ser proactivos en la detección de problemas. Estas actuaciones descritas no se considerarán medidas disciplinarias.
+
+Acciones disciplinarias:
+
+Al determinar la severidad de cualquier medida disciplinaria, los supervisores deberán considerar factores atenuantes o agravantes, que incluirán, entre otros:
+
+La gravedad de la conducta en relación a las funciones y responsabilidades del miembro.
+
+La actuación adoptada ante conductas similares de otros empleados.
+
+Los antecedentes laborales y disciplinarios del miembro.
+
+Circunstancias extraordinarias ajenas al control del miembro.
+
+Las infracciones se clasifican en tres categorías:
+
+Infracciones menores: Incluyen, entre otras, no cumplimentar documentación obligatoria, quejas del público en general y falta de respeto a la cadena de mando.
+
+Infracciones moderadas: Incluyen, entre otras, manejo indebido de evidencia, grado elevado o reiterado de insubordinación, múltiples quejas del público, falta de respuesta a llamadas de emergencia o patrón frecuente de mala conducta.
+
+Infracciones graves: Incluyen, entre otras, supuestos en los que el miembro deba ser retirado del servicio por ser un peligro para sí o para terceros, la comisión de un delito grave, estar sometido a investigación penal, un patrón de mala conducta o ser considerado no apto para el desempeño de funciones como LEO.
+
+Medidas disciplinarias por categoría:
+
+Infracciones menores
+
+Se podrán imponer advertencias verbales o escritas y/o tareas adicionales proporcionales a la falta.
+
+Se notificará al Teniente correspondiente las medidas adoptadas dentro de las 24 horas siguientes a su imposición.
+
+Infracciones moderadas
+
+Se podrán imponer advertencias verbales o escritas y/o tareas adicionales proporcionales a la falta.
+
+Cualquier medida disciplinaria que exceda de un (1) turno de servicio requiere la aprobación de un Teniente.
+
+La recapacitación que se estime necesaria como parte de la medida disciplinaria requiere aprobación de un Teniente y de la FTD (Si corresponde).
+
+Se notificará al Teniente correspondiente las medidas adoptadas dentro de las 24 horas siguientes a su imposición.
+
+Infracciones graves
+
+Las suspensiones administrativas requieren aprobación de un Teniente o superior. Si la necesidad es inmediata un Sargento II o en consecuencia un Sargento podrá aprobar una suspensión por no más de 24 horas e informará de inmediato a un superior.
+
+Los miembros declarados culpables de un delito grave serán destituidos.
+
+Los descensos de rangos requieren aprobación de High Command y Command.
+
+Audiencia previa:
+
+Cuando se alegue que un LEO ha cometido una posible infracción, el High Command y Command estará obligado a tener un audiencia previa a iniciar cualquier actuación adicional, incluidas medidas disciplinarias, destitución y/o cargos penales.
+
+Si la audiencia se desprende en contra del Oficial de la paz iniciando un procedimiento para la destitución o la aplicación de cargos penales sobre el mismo, se convocará una junta judicial para revisar el asunto y emitir conclusiones y recomendaciones en un plazo de 72 horas.
+
+Junta judicial:
+
+Cuando sea necesario, normalmente al concluir una investigación policial o antes de alegaciones de carácter grave, High Command y Command podrán convocar una junta judicial para determinar si se adoptarán acciones administrativas y cuales. Las juntas judiciales siguen las siguientes directrices:
+
+Composición: La composición la determinará el High Command y Command. Se sentará un número impar de miembros con voto. Uno ejercerá como presidente, convocará y organizará el juicio. A discreción de High Command y Command, podrán incluirse miembros sin voto para aportar perspectiva (habitualmente de rango similar al miembro sometido a juicio).
+
+La acusación/El Estado: La acusación estará conformada normalmente por un Supervisor o alguna escala superior. Si hubo una investigación, el detective al cargo podrá tomar este papel.
+
+La defensa: La defensa estará conformada por el miembro afectado y su defensor, preferentemente un Supervisor o representante sindical asistiendo al miembro en el proceso y en su defensa.
+
+Público: La defensa podrá optar por un juicio a puerta cerrada o en audiencia abierta.
+
+Programación: Las juntas judiciales se programarán con celeridad, sin menoscabar la preparación de ninguna de las partes.
+
+Desarrollo: El juicio optará por una estructura similar a la de un juicio común con ciertas modificaciones.
+
+Apertura de la junta y palabras iniciales del presidente.
+
+Alegato inicial de la acusación y después de la defensa.
+
+Exposición del caso por la acusación con interrogatorios de la junta.
+
+Exposición del caso por la defensa con interrogatorios de la junta.
+
+No se permitirá el contrainterrogatorio entre ninguna de las partes.
+
+Alegatos de cierre: primero la acusación y luego la defensa.
+
+Deliberación de la junta y emisión del veredicto por el presidente.
+
+Apelación: Los miembros podrán apelar el resultado ante un Supervisor en un plazo de 7 días laborables.
+
+Cargos penales y reclusión:
+
+Si al concluir la investigación la infracción amerita cargos penales, se informara al oficial de los cargos y se le consultará si desea ser procesado en ese momento o si prefiere que los cargos se eleven a una instancia judicial penal.
+
+Los Oficiales de la paz solo serán ingresados en la Prisión Estatal de Bolingbroke cuando el DOC cuente con personal suficiente para garantizar su seguridad. En ausencia de personal del DOC, el ex-oficial permanecerá detenido en una celda designada de cualquier comisaría local, bajo supervisión del agente aprehensor, hasta cumplir el tiempo correspondiente.
+
+Investigaciones internas
+
+Aunque el DPS no cuenta (actualmente) con una división de Investigaciones internas, los miembros pueden ser objeto de investigaciones realizadas por las escalas correspondientes. Se aplican las siguientes directivas:
+
+Los miembros deberán cooperar en investigaciones en las que no sean el sujeto ni estén afrontando cargos penales. La falta de cooperación pueden conllevar medidas disciplinarias graves y/o cese.
+
+Cuando sean sujeto de una investigación penal o afronten cargos penales, los miembros están amparados por sus derechos constitucionales.
+
+Todo investigado tendrá derecho a que un representante sindical este presente durante todo tipo de interrogatorio y/o acción en contra del LEO.
+
+Siempre que un miembro forme parte de una investigación, ya sea penal o administrativa, tiene derecho a contar con un defensor o representante sindical a su elección. De forma análoga a la solicitud de un abogado, los investigadores interrumpirán las preguntas hasta que el defensor esté presente y pueda asesorar al miembro.
+
+Representante sindical
+
+Cualquier LEO del SAPD podrá postularse como candidato a representante sindical a partir del rango ‘Oficial Sénior/Deputy Sheriff Bonus II o Trooper’ y podrá haber un máximo de dos (2).
+
+Derechos de un LEO:
+
+No tiene derecho a permanecer en silencio, negarse en la cooperación podrá implicar la expulsión del departamento a discreción del High Command y Command.
+
+Tiene derecho a la presencia y al asesoramiento de un representante sindical dentro de todo el proceso llevado contra su persona.
+
+1.1.4 - Uniformes y equipamiento
+
+Uniformes y apariencia personal
+
+Los estándares de uniforme son fijados por el High Command y Command del SAPD, siguiendo estas directrices:
+
+Los miembros patrullarán como unidad uniformada y rotulada.
+
+Los miembros mantendrán apariencia profesional en todo momento; no se permitirá maquillaje excesivo, pintura facial u otros elementos que desvirtúen la imagen profesional. El cabello deberá tener un aspecto profesional y no presentar colores antinaturales. Los Supervisores determinarán lo que se ajusta o no a esta política.
+
+Los miembros deberán portar un cinturón de servicio completo.
+
+Los miembros están autorizados al uso de indumentaria profesional para acudir a vistas judiciales.
+
+Los miembros están autorizados a portar el gorro tipo ‘beanie’ durante periodos de frío.
+
+Los Oficiales de la paz no están autorizados a vestir de paisano sin permiso previo de un Supervisor. Los Detectives podrán autorizar a patrulleros a vestir de paisano para prestar apoyo en investigaciones u operaciones en curso.
+
+Equipamiento individual
+
+Los Oficiales de la paz utilizarán únicamente la dotación reglamentaria durante el servicio. No está autorizado el uso de armas o equipo propios o adquiridos personalmente en servicio.
+
+Todo miembro deberá contar con licencia de armas vigente para acceder al arsenal del DPS y equiparse para sus funciones.
+
+Los miembros no están autorizados a portar equipo del DPS fuera de servicio, deberá entregarse o guardarse en la taquilla personal. Esto incluye todo equipo susceptible de ser emitido desde un arsenal del DPS mediante la tarjeta de crédito gubernamental.
+
+Vehículos y equipamiento vehicular
+
+El personal patrullará en vehículos autorizados por su respectivo departamento. Todos los vehículos deberán estar claramente identificados como policiales y contar con puente de luces de emergencia en el techo.
+
+Se obedecerán todas las normas de tráfico, salvo cuando se responda a un requerimiento de servicio de forma apropiada y autorizada.
+

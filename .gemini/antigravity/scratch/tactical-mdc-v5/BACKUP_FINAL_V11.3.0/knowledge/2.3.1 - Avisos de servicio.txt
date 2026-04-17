@@ -1,0 +1,144 @@
+2.3.1 - Avisos de servicio
+
+Respuesta a llamadas
+
+Los LEO acudirán con el código necesario según la prioridad de la llamada:
+
+Código 1
+
+Sin luces ni sirenas, cumpliendo toda la normativa de tráfico.
+
+Para llamadas de baja prioridad (por ejemplo: tomar una denuncia).
+
+Una unidad puede bajar a Código 1 desde un código superior para no alertar a los sospechosos de su presencia.
+
+Código 2
+
+Con luces de emergencia y claxon/sirena intermitentes para despejar intersecciones y alertar al tráfico.
+
+Para responder a emergencias (por ejemplo: robo de vehículo con intimidación).
+
+Una unidad puede bajar a Código 2 o Código 1 desde un código superior para no alertar a los sospechosos de su presencia.
+
+Código 3
+
+Con luces y sirenas activadas; el claxon se puede usar para despejar intersecciones y tráfico.
+
+Para situaciones prioritarias (por ejemplo: robos, disparos, peticiones de apoyo).
+
+2.3.2 - Control de la escena
+
+Escenas activas
+
+A menudo los LEO atienden llamadas en escenas activas o delitos en curso (Robos, peleas, violencia doméstica y otras llamadas potencialmente violentas).
+
+Existen tres prioridades en escenas activas:
+
+Stop the Killing (detener la agresión): Detener el acto violento en curso y prevenir más violencia.
+
+Stop the Dying (salvar vidas): Prestar auxilio a las personas heridas.
+
+Secure The Scene (asegurar la escena): Asegurar el lugar para preservar evidencias y permitir la transición a la investigación preliminar.
+
+Transición a investigación
+
+Una vez la escena quede inactiva/segura, podrá iniciarse la investigación preliminar (véase 2.3.3). Nota: algunas actuaciones pueden haberse iniciado ya durante la fase activa.
+
+2.3.3 - Investigaciones preliminares
+
+Determinar si ha ocurrido un delito
+
+La investigación preliminar comienza al recibir la llamada o cuando un LEO descubre una escena del crimen. Los LEO no entrarán en una escena del crimen conocida (por ejemplo: homicidio) salvo instrucción expresa o si ellos mismos la descubren.
+
+El primer LEO en llegar asume el mando y conduce la investigación preliminar, salvo relevo por un Supervisor o un Detective. También deberá realizar un reconocimiento visual rápido y permanecer atento a indicios de actividad sospechosa, en especial la huida del autor o evidencias del hecho.
+
+El primer agente asegurará la escena:
+
+Ordenará a las unidades establecer un perímetro.
+
+Asegurará que todas las personas presentes permanezcan hasta que sean aseguradas y/o interrogadas.
+
+No se permitirá el acceso a personal no autorizado (civiles o personal de policía no necesario para continuar la investigación)
+
+Asegurará que la evidencia no se toque ni mueva salvo que sea absolutamente necesario para preservarla.
+
+El agente anotará y registrará sumariamente cualquier evidencia relacionada y solicitará, si procede, técnicos en la escena. Si no son necesarios, el agente será responsable de recoger, documentar y custodiar correctamente toda evidencia física.
+
+Identificación y asistencia a la víctima
+
+Con la escena asegurada el LEO al cargo deberá:
+
+Evaluará de inmediato la necesidad de asistencia médica de cualquier persona herida y localizará testigos, especialmente si el sospechoso ha huido.
+
+Localizará, identificará e interrogará al denunciante y los testigos.
+
+Separará a los testigos para obtener declaraciones independientes.
+
+Entrevistará lo antes posible, en un lugar tranquilo si es viable.
+
+Siempre que sea posible, tomará declaraciones escritas o grabadas (víctima, testigos o sospecho tras la advertencia ‘Cassidy’) e incluirá todo en el incidente/reporte.
+
+Cuando sea procedente, durante la respuesta inicial o la investigación posterior, identificará sospechosos y los interrogará según sea necesario.
+
+El LEO al cargo valorará respecto a las declaraciones.
+
+¿Fué normal el tiempo transcurrido entre el hecho y el aviso a la policía?
+
+¿Existen discrepancias entre declaraciones de víctimas/testigos?
+
+¿La evidencia física respalda los hechos relatados por la víctima?
+
+Conclusión de la investigación preliminar
+
+La investigación preliminar continuará mientras tiempo y recursos lo permitan (máximo 24h para los patrulleros). Concluye cuando:
+
+Hay evidencia suficiente e información del autor para sustentar causa probable y efectuar arresto en escena si el autor está presente; o
+
+Si el autor ha huido, esa misma información permite solicitar orden de detención; o
+
+No hay información suficiente para causa probable y se eleva informe. El informe se filtra/etiqueta y el caso de asigna a un Detective para seguimiento, si procede.
+
+Remisión de casos
+
+Si la investigación preliminar no se cierra con arresto inmediato, el LEO y el mando decidirán continuarla o detenerla. Se remitirán casos cuando:
+
+Se trate de delitos graves (homicidios, pérdidas patrimoniales elevadas, tráfico de armas/drogas) o encuadros en funciones especializadas del CID.
+
+Se crea que el incidente puede integrar una investigación en curso.
+
+Requiera seguimiento que no puede completarse en 24 horas (varios turnos).
+
+Requiera equipo o autorizaciones especiales (por ejemplo: vehículos camuflados, infiltración u operativos coordinados).
+
+A discreción del LEO al cargo o de un Supervisor.
+
+2.3.4 - Técnicas de interrogatorios
+
+Derechos Cassidy
+
+Los LEO informarán de los Derechos Cassidy al arrestar a una persona o antes de cualquier interrogatorio que pueda conducir a su autoincriminación.
+
+Custodia + Interrogatorio = Cassidy
+
+“Tiene derecho a guardar silencio. Cualquier cosa que diga puede ser utilizada en su contra en un tribunal. Tiene derecho a la asistencia de un abogado si hay uno disponible. Si no puede costearlo, el Estado le designará uno de forma gratuita. Tiene derecho a impugnar todos y cada uno de los cargos ante un tribunal, si está disponible. ¿Entiende estos derechos tal y como se los he leído? Con estos derechos en mente ¿desea continuar hablando conmigo?”
+
+Técnicas de interrogatorio
+
+El objetivo es acreditar los hechos contrastando declaraciones de testigos/víctimas y/o sospechosos con otras declaraciones o evidencia física. Es clave anclar pronto a la persona en su versión.
+
+El personal del DPS utilizará técnicas de “embudo”. Algunos pasos esenciales son:
+
+Preparación: Llegar lo más preparado posible: dedicar unos minutos a entender el contexto; leer informes disponibles; planificar líneas de preguntas; entrevistar de forma lógica (testigos periféricos → Testigos clave → Sospechosos); reunir evidencia relevante antes.
+
+Generar rapport: Empezar con datos biográficos (quién es, a qué se dedica, etc) para relajar, crear confianza y fomentar respuestas abiertas.
+
+Preguntas abiertas: No se contestan con sí/no; requieren reflexión y fomentan respuestas amplias (conocimiento, actitudes, opiniones, creencias, sentimientos). Evitan que el LEO imponga su visión o filtre datos involuntariamente.
+
+Preguntas TEDS: Las abiertas más eficaces: Cuéntame… Explicame… Describe… Señalame…
+
+Sondeo: Usado para aclarar detalles obtenidos con las preguntas abiertas: Quién, cuándo, dónde, por qué.
+
+Preguntas cerradas: ERespuestas breves y concretas (sí/no o dato puntual). Por ejemplo: ¿Con quién ibas? ¿Qué hora era?
+
+Revisión Al cerrar el embudo se deberá parafrasear brevemente lo declarado y permitir aclaraciones.
+

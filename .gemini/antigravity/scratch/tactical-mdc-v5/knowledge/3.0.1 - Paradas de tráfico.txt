@@ -1,0 +1,54 @@
+3.0.1 - Paradas de tráfico
+
+Paradas de tráfico
+
+Las paradas de tráfico se deben realizar como mínimo por una sospecha razonable y no en vano. Por ende, existen diversos motivos; Citaciones de tráfico, posible involucración en un aviso cercano, posible órden de arresto, etc…
+
+El protocolo que se debe aplicar es el siguiente:
+
+El LEO inicia la parada detrás detras del vehículo en codigo 3, en ese mismo momento se debe informar a Dispatch de la intervención así como crear el aviso y asignar una frecuencia por si 10-77 fuera necesario. Acto seguido, nos dirigiremos al conducto con el megafono indicandole que debe parar a la derecha y apagar el motor del vehículo.
+
+Se debe determinar como de peligrosa es la situación. En caso de encontrarnos vehículos con signos de ocultación de algun elemento, como pueden ser; Integrantes, matriculas o contenido en el interior del mismo podremos pre-catalogar la dificultad o la peligrosidad de la parada de tráfico en cuestión.
+
+Para pre-catalogar una parada de tráfico algunos consejos son:
+
+Observar el tintado de ventanas:
+
+Sin tintado: No oculta integrantes ni objetos en su interior, no supone ningun peligro aparente.
+
+Tintado nivel 1: Dificulta no gravemente la visión del interior del vehículo, no supone ningun peligro aparente.
+
+Tintado nivel 2: No permite ver de forma razonable prácticamente ningun pasajero del vehículo, podría suponer algun peligro.
+
+Tintado nivel 3: Oculta totalmente el interior del vehículo, podría suponer algun peligro.
+
+Observar el portamatriculas:
+
+Matrícula visible: En caso de mostrar una matrícula puede no suponer un peligro/dificultad al no intentar ocultar elementos del vehículo.
+
+Sin matrícula: En caso de no mostrar una matrícula puede suponer un peligro/dificultad dado que oculta elementos del vehículo.
+
+Se debe colocar el vehiculo en un angulo de 45º respecto al vehiculo del sospechoso, esto evita posibles golpes hacía el motor del patrulla así como proporciona cobertura ante un posible tiroteo. La segunda unidad deberá hacer lo mismo (y no se bajaran nunca del vehículo a menos que sea extremadamente necesario). Por ultimo, la tercera unidad se podrá colocar en la misma posición así como en la acera contraria para obtener una mayor cobertura y angulo de visión. Es importante que durante una persecución la 2ª unidad se convierta en la 1ª y comience el 10-80 contra el sospechoso, asi como la 3ª se convertira en la 2ª y la 1ª en la 3ª. En el diagrama las flechas rojas representan el comienzo de un 10-80.
+
+En caso de que sea una parada segura, se bajaran ambos LEO de la 1ª unidad. En caso de que se desconozca el peligro se bajará solamente el copiloto (Con el afán de volver rápido al patrulla y emprender la persecución como 3ª unidad en caso de precisarlo). Al bajar/bajarse el conductor irá a la ventanilla del conductor del vehículo en 10-38 mientras que el copiloto del patrulla irá a la ventanilla del copiloto del vehículo en 10-38 (Aplicable para K9). Una vez entablada la conversación con el conductor del vehículo en 10-38 nunca se dira primero el motivo de la parada sino que se solicitara el ID físico y los papeles del conductor y vehículo, respectivamente, por la ventanilla mientras que el copiloto del patrulla comprueba la patente del vehículo en 10-38. Al recibir el ID ambos agentes volverán a su patrulla a comprobar la información que fuera preciso referente al vehículo/conductor.
+
+Tras revisar la información necesaria (Entiendase; Historial delictivo, puntos del carnet, avisos escritos pasados…), la unidad volvera a bajarse para informar al conductor de la citación de tráfico a imputar o del aviso escrito a emitir. Es importante haber creado el incidente previamente si fuera necesario para esta situación.
+
+Asegurarnos de que los sospechosos no tienen más preguntas y volver al patrulla. Una vez en el patrulla se le daran las indicaciones para continuar con la marcha.
+
+Realizar el 10-24 con Dispatch y rellenar toda la información pertinente en un incidente (si lo hubiera).
+
+3.0.2 - Jurisprudencia Relevante
+
+Estado Contra Romano (#45514)
+
+Durante una parada de tránsito legítima iniciada con causa probable por una infracción vehicular, un LEO puede exigir al conductor que presente una licencia de conducir válida y el registro del vehículo.
+
+Estado Contra Mahmoud (#15605)
+
+Es razonable que un LEO solicite al conductor o a los pasajeros de un vehículo que desciendan durante una parada de tránsito, siempre que el oficial pueda articular hechos o circunstancias que indiquen una posible amenaza a su seguridad, ya sea por parte de los ocupantes o por la ubicación de la detención.
+
+Estado Contra Imogen Tsukasa (#140146)
+
+Un perro detector de drogas puede ser utilizado para olfatear un vehículo detenido legalmente en busca de contrabando, siempre que la revisión ocurra dentro del tiempo razonablemente necesario para llevar a cabo la parada, una alerta positiva del can respecto a drogas en un vehículo otorga al oficial causa probable para realizar un registro sin orden judicial del mismo.
+

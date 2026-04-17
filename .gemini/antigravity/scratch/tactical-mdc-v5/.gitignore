@@ -1,0 +1,9 @@
+node_modules/
+dist/
+backups/
+out/
+.DS_Store
+*.exe
+*.log
+test_engines.js
+predictive_test.js

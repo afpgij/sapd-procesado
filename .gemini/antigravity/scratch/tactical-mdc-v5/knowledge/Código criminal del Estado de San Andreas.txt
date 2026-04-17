@@ -1,0 +1,608 @@
+Código criminal del Estado de San Andreas
+
+Índice:
+
+Sección 001 | Prescripción de delitos y órdenes de arresto.
+
+Sección 002 | Obtención de ADN.
+
+Sección 003 | Condiciones para fianzas y libertad condicional.
+
+Sección 004 | Servicio comunitario.
+
+Sección 005 | Licencias.
+
+Sección 006 | Antecedentes penales y solicitudes de registros gubernamentales.
+
+Sección 007 | Conspiración, instigación, cómplices y encubridores.
+
+Sección 008 | Multas e impuestos impagados.
+
+Sección 009 | Clasificación del porte de armas de fuego.
+
+Sección 010 | Protocolo de respuesta de emergencia.
+
+Sección 011 | Regulación gubernamental de sustancias agrícolas y su venta (Ley G.R.A.S.S).
+
+Sección 012 | Juntas de libertad condicional.
+
+Sección 001 | Prescripción de delitos y órdenes de arresto.
+
+Los plazos de prescripción se establecen de la siguiente forma:
+
+Categoría del delito
+
+Prescripción
+
+Caducidad de la orden
+
+Grave A
+
+6 meses
+
+6 meses
+
+Grave B
+
+90 días
+
+7 días
+
+Grave C
+
+45 días
+
+7 días
+
+Grave D
+
+20 días
+
+7 días
+
+Leve A
+
+15 días
+
+4 días
+
+Leve B
+
+15 días
+
+4 días
+
+Leve C
+
+15 días
+
+4 días
+
+Infracción
+
+5 días
+
+2 días
+
+La prescripción será específica del incidente; cuando se imputen múltiples delitos derivados de un mismo hecho, se aplicará el plazo de prescripción más largo correspondiente a cualquiera de los delitos imputados.
+
+Recursos:
+
+El plazo de prescripción para recurrir cualquier asunto penal será de veintiún (21) días. El solicitante podrá solicitar una prórroga al tribunal.
+
+El plazo de prescripción para todos los recursos judiciales será de veintiún (21) días. El solicitante podrá solicitar una prórroga al tribunal.
+
+Arrest Warrants:
+
+Las órdenes de arresto podrán ser emitidas por cualquier agente de la paz del Estado de San Andreas cuando exista causa probable suficiente para fundamentar la detención.
+
+Una vez expirada una orden de arresto, no podrán formularse cargos contra el sospechoso en relación con el incidente correspondiente.
+
+Cuidados intensivos:
+
+Cuando un sospechoso haya sido detenido y se encuentre bajo custodia policial, no será necesaria una orden para formular cargos, pudiendo ser acusado y procesado tras recibir el alta médica, con independencia del tiempo que haya permanecido en cuidados intensivos.
+
+Cuando un sospechoso sea liberado de cuidados intensivos por error de personal, error administrativo o cualquier otro error, pese a encontrarse bajo custodia policial, podrá emitirse una orden de arresto indefinida para su reaprehensión.
+
+Suspensión de la prescripción en delitos graves A
+
+El plazo de prescripción podrá suspenderse en delitos grave A en los siguientes supuestos:
+
+Situación continuada: cuando nuevas acciones independientes contribuyan a la continuación del delito alegado.
+
+Mayhem: podrán utilizarse dos instancias previas de mutilación en segundo grado cuando el tercer incidente constitutivo de mutilación en primer grado se encuentre dentro del plazo de prescripción del delito grave A.
+
+Pruebas nuevas: cuando se obtenga información que no estuviera previamente disponible para los investigadores pese a una actuación diligente.
+
+Sección 002 | Obtención de ADN.
+
+Podrá obtenerse una muestra de ADN, mediante el medio más razonable y menos invasivo disponible para el agente en el momento de la obtención, sin orden judicial, cuando exista causa probable de la comisión de un delito grave violento. Si se alega una vulneración del Artículo IV, la persona cuya muestra de ADN haya sido obtenida podrá recurrir dicha obtención mediante juicio sin jurado, recurso u otro procedimiento relacionado con los delitos subyacentes.
+
+Tras una obtención de ADN sin orden judicial, el Estado dispondrá de veintiún (21) días para presentar cargos penales derivados del incidente que motivó la obtención. El incumplimiento de este plazo dará derecho a la persona afectada a solicitar al tribunal la eliminación de su ADN de la base de datos policial. El Estado podrá solicitar una prórroga siempre que los cargos permanezcan dentro del plazo de prescripción.
+
+(Véase State v. Raith Robinson #10374)
+
+En otros casos, un agente de la autoridad podrá solicitar una orden judicial para la obtención de ADN cuando exista causa probable de que una persona haya cometido delitos y exista una creencia razonable de que la obtención del ADN es necesaria para probarlos.
+
+El ADN solo será eliminado de la base de datos policial mediante orden judicial expresa.
+
+Podrá obtenerse ADN de cualquier cadáver por personal médico o agentes de la autoridad como parte del proceso de autopsia.
+
+Sección 003 | Condiciones para fianzas y libertad condicional.
+
+Libertad condicional – Delito leve D a delito grave B
+
+Las personas condenadas por delitos comprendidos entre Delito leve D y grave B que incluyan libertad condicional estarán sujetas a cumplir el resto del período de libertad condicional en prisión si son imputadas por cualquier delito menor o grave cometido durante dicho período.
+
+Delito grave A – Fianza
+
+Tras la detención por cualquier delito Felony A, o cualquier otro delito que implique retención, el acusado tendrá derecho a solicitar de forma inmediata una vista de fianza. Las fuerzas del orden o el personal de la Fiscalía deberán contactar con un juez. Si no hubiera disponibilidad judicial, el caso deberá publicarse inmediatamente en el registro, pudiendo presentarse una moción y respuesta de fianza para su revisión.
+
+La fianza podrá ser denegada por decisión judicial cuando concurra alguno de los siguientes motivos:
+
+Múltiples imputaciones simultáneas por delitos Felony A.;
+
+Múltiples condenas previas por delitos Felony A, especialmente en un corto período de tiempo, o;
+
+Incomparecencias previas ante el tribunal;
+
+En circunstancias excepcionales, por la extrema gravedad de los hechos imputados.
+
+La liberación bajo fianza requerirá el pago del veinte por ciento (20 %) de los importes establecidos:
+
+Traición
+
+$100,000.00
+
+Terrorismo
+
+$80,000.00
+
+Corrupción gubernamental
+
+$60,000.00
+
+Homicidio de empleado gubernamental
+
+$60,000.00
+
+Homicidio
+
+$60,000.00
+
+Mutilación en primer grado
+
+$45,000.00
+
+Fabricación de armas
+
+$60,000.00
+
+Tráfico de armas
+
+$45,000.00
+
+Tráfico de drogas
+
+$60,000.00
+
+La violación de las condiciones de fianza implicará la pérdida del importe abonado y el reingreso en custodia hasta la celebración del juicio. La incomparecencia al juicio implicará la pérdida total de la fianza.
+
+La fianza podrá ser abonada por el acusado o por un tercero autorizado.
+
+Cuando se celebre una vista de fianza, el Estado deberá registrar el caso en un plazo de cuarenta y ocho (48) horas, identificando formalmente al acusado.
+
+Condiciones generales de libertad condicional - Delito grave (A)
+
+Tras ser puesto en libertad bajo libertad condicional mientras esté formalmente imputado por cualquier delito grave (A), el acusado quedará sujeto a las siguientes condiciones, así como a cualesquiera otras que imponga el juez o magistrado responsable de la concesión de la libertad condicional:
+
+Deberá proporcionar a los agentes de la autoridad o al Departamento de Justicia su nuevo domicilio antes de efectuar cualquier cambio de residencia.
+
+Deberá notificar a los agentes de la autoridad o al Departamento de Justicia, dentro de un plazo de tres (3) días, cualquier cambio en el lugar de trabajo o la obtención de un nuevo empleo.
+
+Deberá cumplir todas las órdenes legales y las instrucciones escritas emitidas por el Departamento de Justicia o por los agentes de la autoridad.
+
+No deberá cometer ningún otro delito grave; la imputación por cualquier delito grave constituirá una violación inmediata de la libertad condicional.
+
+No deberá portar armas de fuego, ni ningún objeto que aparente ser un arma de fuego real, ni balas ni munición.
+
+No deberá portar ningún otro tipo de arma, incluidas cuchillos, bates u otros instrumentos de combate cuerpo a cuerpo que puedan ser utilizados como arma, salvo cuando sea estrictamente necesario en el ejercicio de una actividad laboral o recreativa en la que dicha herramienta sea requerida.
+
+Condiciones Avanzadas de Libertad Condicional – Delito Grave (A)
+
+Traición
+
+Terrorismo
+
+Corrupción gubernamental
+
+Homicidio de un empleado gubernamental
+
+Asesinato
+
+Mutilación en primer grado
+
+Tras ser puesto en libertad bajo libertad condicional mientras esté imputado por cualquiera de los delitos grave (A) enumerados anteriormente, el acusado quedará sujeto a las Condiciones Generales de Libertad Condicional para Delito Grave (A), además de las siguientes condiciones adicionales:
+
+El acusado deberá comparecer personalmente ante el Departamento de Correcciones una vez al día, mientras se encuentre despierto entre sus horas de vigilia y descanso, para un control presencial y entrevista destinados a verificar el cumplimiento de las condiciones de la libertad condicional.
+
+Los registros bancarios y telefónicos del acusado podrán ser solicitados, sin necesidad de causa probable, por los agentes de la autoridad o por los fiscales del Estado de San Andreas una vez cada veinticuatro (24) horas.
+
+El acusado deberá completar seis (6) horas semanales de servicio comunitario, bajo la supervisión de un responsable de servicio comunitario.
+
+El acusado deberá obedecer todas las leyes; la imputación por cualquier delito menor o grave constituirá una violación inmediata de la libertad condicional.
+
+El acusado podrá ser sometido a un cacheo superficial por parte de los agentes de la autoridad con el fin de verificar el cumplimiento del punto (5) de las Condiciones Generales de Fianza y Libertad Condicional para Delito Grave (A).
+
+Sección 004 | Servicio Comunitario
+
+Servicio comunitario en sustitución de pena privativa de libertad
+
+Cuando una persona sea declarada culpable o se declare culpable de un delito de nivel grave (A), el Estado de San Andreas podrá permitir que dicha persona realice servicio comunitario en sustitución del cumplimiento íntegro de su condena de prisión.
+
+Cada dos (2) horas de servicio comunitario supervisado debidamente completadas podrán dar lugar a una reducción de un (1) año de la condena de prisión o del período de libertad condicional, con un máximo de seis (6) horas por día.
+
+Las personas que hayan sido imputadas por los delitos de fuga de custodia o fuga de prisión o durante el traslado, dentro de un plazo de veintiún (21) días, no serán elegibles para salir de prisión a fin de realizar servicio comunitario conforme a esta sección. Dichas personas podrán realizar servicio comunitario dentro de las instalaciones del centro penitenciario estatal.
+
+Servicio comunitario en sustitución de multas
+
+El Estado de San Andreas podrá permitir que las personas realicen servicio comunitario en sustitución del pago de multas. Ninguna persona será elegible para servicio comunitario en sustitución de multas si dispone de los recursos económicos necesarios para abonar la multa.
+
+Cada hora de servicio comunitario supervisado debidamente completada podrá dar lugar a una reducción de la multa por un importe de quinientos dólares (500,00 USD). Ninguna persona recibirá compensación alguna, económica o de cualquier otra naturaleza, mientras realice servicio comunitario en sustitución de multas, salvo dentro de un programa aprobado por el Departamento de Justicia de San Andreas.
+
+Supervisión del servicio comunitario
+
+El servicio comunitario deberá realizarse bajo la supervisión de:
+
+Cualquier funcionario de Instituciones Penitenciarias debidamente autorizado del Departamento de Correcciones;
+
+Un funcionario judicial y/o secretario judicial;
+
+Un agente de la paz;
+
+Un miembro de SAMA, o;
+
+Otros departamentos, entidades, empresas o personas autorizadas por el Alcalde, el Gobernador o un Juez del Tribunal Supremo.
+
+Informes de servicio comunitario
+
+Todas las personas que supervisen servicio comunitario deberán cumplimentar un informe de servicio comunitario, disponible en la sección de Solicitudes del Departamento de Justicia, en el que se describa el servicio realizado y el número de horas trabajadas.
+
+Las horas de servicio comunitario se redondearán al alza o a la baja a la media hora más próxima.
+
+Ninguna persona podrá cumplir servicio comunitario simultáneamente en sustitución tanto de pena privativa de libertad como de multas.
+
+Sección 005 | Licencias
+
+Licencias – Disposiciones generales
+
+Cualquier licencia de armas, licencia de helicóptero, licencia de caza, u otro permiso o licencia especial podrá ser revocada por un agente de la autoridad debidamente autorizado de este Estado cuando exista causa probable para considerar que dicha licencia ha sido utilizada en la comisión de cualquier delito grave o delito menor, o cuando se haya producido una infracción de la legislación o de los Códigos de este Estado en el uso de dicha licencia.
+
+Licencias de armas
+
+Además de lo anterior, cualquier licencia de armas de fuego podrá ser revocada por un agente de la autoridad debidamente autorizado de este Estado cuando exista causa probable de la comisión de un delito grave de nivel grave (B). Esta cláusula también aplica a cualquier persona que desee obtener la licencia con delitos ya imputados.
+
+Licencias comerciales
+
+Licencias y regulación del servicio de taxi
+
+A) Toda persona que opere un servicio de taxi o transporte de pasajeros dentro del Estado de San Andreas deberá estar en posesión de una licencia de conducir válida.
+
+B) Toda persona que opere un servicio de taxi o transporte de pasajeros dentro del Estado de San Andreas deberá estar en posesión de una licencia de conducir comercial válida.
+
+Operaciones de grúa
+
+A) Toda persona que opere un servicio de grúa o vehículo de remolque dentro del Estado de San Andreas deberá estar en posesión de una licencia de conducir válida.
+
+B) Toda persona que opere un servicio de grúa o vehículo de remolque dentro del Estado de San Andreas deberá estar en posesión de una licencia de conducir comercial válida.
+
+Restitución de licencias básicas
+
+Cualquier persona que solicite la restitución de una licencia básica suspendida podrá formular dicha solicitud ante un empleado del Departamento de Justicia, una vez cumplido el siguiente plazo legal de espera, en función de la gravedad de la conducta que dio lugar a la suspensión de
+
+Delito leve: 15 días
+
+Delito grave: 30 días
+
+Delito grave con resultado de lesiones corporales: 45 días
+
+Antes de proceder a la restitución, el DOJ confirmará que el plazo de espera ha sido cumplido y cobrará una tasa de restitución equivalente al cincuenta por ciento (50 %) de la tasa de expedición de la licencia. El DOJ no restituirá ninguna licencia a personas que tengan multas pendientes de pago.
+
+Restitución de licencias especiales
+
+Cualquier persona que solicite la restitución de una licencia especial suspendida podrá hacerlo mediante la presentación de una declaración jurada por escrito ante un secretario del condado. Dicha declaración deberá ser presentada por un abogado, a través del formulario designado, e incluir:
+
+El motivo de la suspensión de la licencia;
+
+La fecha en que la licencia fue suspendida;
+
+El tiempo transcurrido desde la última condena del acusado;
+
+Una explicación de los motivos por los que la licencia debería ser restituida.
+
+Tras la revisión de la solicitud, un Juez, Magistrado, o el responsable de cualquier departamento ejecutivo que supervise la actividad sujeta a licencia podrá restituir la licencia, denegar su restitución, o señalar el asunto para una audiencia informal.
+
+Toda persona tendrá derecho a contar con la presencia de un abogado en cualquier audiencia de restitución de licencia, cuando dicho abogado esté disponible.
+
+Sección 006 | Antecedentes penales y solicitudes de registros gubernamentales
+
+(A) Elegibilidad
+
+Únicamente los abogados certificados por el Colegio de Abogados del Estado (abogados certificados por el BAR) estarán autorizados para presentar solicitudes de antecedentes penales o solicitudes de registros gubernamentales.
+
+Los abogados certificados por el BAR deberán aportar prueba del consentimiento de la parte solicitante junto con la solicitud de antecedentes penales o de registros gubernamentales. Dicha prueba de consentimiento podrá incluir un contrato de representación, justificante de pagos realizados, o comunicaciones que demuestren que el abogado cuenta con el consentimiento de la parte solicitante y actúa como su representante legal.
+
+(B) Presentación de solicitudes
+
+Las solicitudes de antecedentes penales o de registros gubernamentales, acompañadas de la correspondiente prueba de consentimiento, deberán presentarse ante los Secretarios del Tribunal.
+
+Las solicitudes deberán especificar la información solicitada, facilitar datos de contacto, e incluir la prueba de consentimiento de la parte solicitante.
+
+(C) Revisión de solicitudes
+
+Los Secretarios del Tribunal revisarán las solicitudes de antecedentes penales o de registros gubernamentales junto con la prueba de consentimiento para verificar el cumplimiento de los requisitos de elegibilidad.
+
+Una vez validadas, los Secretarios del Tribunal notificarán sin demora a la agencia correspondiente la existencia de la solicitud de antecedentes penales o de registros gubernamentales.
+
+La agencia que haya generado el informe (en adelante, la “agencia generadora”) dispondrá de un plazo de setenta y dos (72) horas, contado desde el momento de la solicitud inicial, para proporcionar la información solicitada o para aportar una causa válida de denegación.
+
+(D) Exenciones y denegaciones
+
+La agencia generadora podrá suprimir parcialmente o denegar una solicitud de antecedentes penales o de registros gubernamentales basándose en exenciones específicas u otros fundamentos legales. Toda denegación deberá ir acompañada de una explicación por escrito, citando la exención o exenciones concretas aplicadas.
+
+Exenciones específicas:
+
+Información clasificada destinada a proteger la seguridad nacional.
+
+Información relativa exclusivamente a las normas y prácticas internas de personal de una agencia.
+
+Información cuya divulgación esté prohibida por otra ley incorporada al ordenamiento jurídico.
+
+Secretos comerciales o información comercial o financiera de carácter confidencial o privilegiado.
+
+Comunicaciones privilegiadas dentro de una agencia o entre agencias.
+
+Información cuya divulgación suponga una intromisión en la vida privada de otra persona.
+
+Información recopilada con fines de aplicación de la ley que:
+
+Pudiera razonablemente interferir en procedimientos de ejecución o investigación;
+
+Privara a una persona de su derecho a un juicio justo;
+
+Constituyera una intromisión injustificada en la privacidad personal;
+
+Pudiera revelar la identidad de una fuente confidencial;
+
+Revelara técnicas y procedimientos de investigación o enjuiciamiento penal, o directrices cuyo conocimiento pudiera permitir la elusión de la ley;
+
+Pudiera poner en peligro la vida o integridad física de cualquier persona.
+
+Cuando la agencia generadora invoque una exención, la parte solicitante podrá presentar una solicitud de revisión judicial ante los Tribunales del Estado de San Andreas respecto de la negativa a facilitar la documentación solicitada.
+
+(E) Inaplicabilidad de exenciones
+
+En cumplimiento del Artículo VI | Juicio rápido, cláusula de confrontación y derecho a asistencia letrada de la Constitución del Estado de San Andreas, cuando se haya practicado una detención, la agencia generadora no podrá invocar ninguna de las exenciones previstas en el apartado (D) de esta Ley.
+
+(F) Sellado de declaraciones de testigos
+
+Cuando concurran todas las siguientes circunstancias:
+
+El informe contenga la imputación de un delito grave de nivel grave (C) o superior;
+
+El informe incluya declaraciones de testigos que no sean empleados gubernamentales; y
+
+Exista un sospechoso pendiente de detención,
+
+la agencia generadora podrá sellar las declaraciones de los testigos que no sean empleados gubernamentales.
+
+El acusado podrá presentar una moción para levantar el sellado o una moción para la aportación de dichas declaraciones en el momento en que se registre un recurso o se presente el asunto en el registro judicial, o cuando el caso avance hacia cualquier vista o juicio sin jurado ante el Departamento de Justicia.
+
+Las declaraciones podrán ser deselladas cuando así lo exija el interés de la justicia.
+
+Sección 007 | Conspiración, instigación, cómplices y encubridores
+
+Conspiración:
+
+Se entenderá que existe conspiración cuando se produzca cualquier acuerdo entre dos o más personas para cometer un delito, con la intención de llevar a cabo dicho delito. Todas las personas implicadas en una conspiración podrán ser imputadas por todos los delitos cometidos por cualquier otro miembro de la conspiración.
+
+Adicionalmente, para que pueda imponerse responsabilidad penal por conspiración, la persona deberá haber realizado un acto manifiesto en ejecución de los fines de la conspiración. De igual modo, para retirarse válidamente de una conspiración, la persona deberá realizar un acto manifiesto destinado a socavar o frustrar los objetivos delictivos de la conspiración, o notificar a las fuerzas del orden la existencia de la conspiración y sus fines criminales.
+
+Instigación
+
+Se entenderá que existe instigación cuando una persona ofrezca dinero, servicios u otro bien de valor a otra persona a cambio de la comisión de un delito, con la intención de que dicho delito sea cometido. Toda persona que instigue la comisión de un delito podrá ser imputada por todos los delitos cometidos por la persona instigada.
+
+Accomplice:
+
+Se considerará cómplice a toda persona que se encuentre físicamente presente en el lugar del delito y que preste una ayuda material a otra persona en la comisión de dicho delito. El cómplice podrá ser imputado con el mismo grado y gravedad que la persona que cometió directamente el delito.
+
+Colaborador (Enmienda Knight – State v. Piper Drake et al. #60887):
+
+Se considerará colaborador a toda persona que, sin estar físicamente presente en el lugar del delito, proporcione ayuda material a otra persona antes o después de que esta cometa un delito. El colaborador podrá ser imputado por cualquier delito cometido por dicha persona que fuera razonablemente previsible en el momento en que se prestó la ayuda, siempre que el colaborador supiera o razonablemente debiera haber sabido que su asistencia sería utilizada para facilitar la comisión de un delito o la huida inmediata del autor frente a las fuerzas del orden tras el hecho delictivo.
+
+El conocimiento del delito adquirido por cualquier medio después de que el colaborador haya comenzado a prestar asistencia, pero antes de que dicha asistencia haya finalizado, será suficiente para cumplir el requisito de conocimiento. La persona que cese su asistencia tras adquirir dicho conocimiento no será imputada como encubridor.
+
+(Cláusula Dawes)
+
+El período posterior a la comisión del delito se extenderá desde el momento en que finalice la actividad criminal hasta el momento en que el sospechoso o sospechosos sean trasladados a una comisaría para su procesamiento.
+
+(Texas Tweak)
+
+Asesinato por intención transferida
+
+Una persona podrá ser imputada por el asesinato de otra cuando el homicidio se produzca durante la comisión o el intento de comisión de cualquier delito grave o delito menor que implique desprecio o indiferencia hacia la vida humana.
+
+El asesinato por intención transferida no será aplicable al homicidio de un coautor, coconspirador, cómplice o colaborador cuando el resultado mortal no sea consecuencia directa de las acciones del acusado.
+
+Sección 008 | Multas e impuestos impagadas
+
+Toda multa o tasa impuesta por el Gobierno de San Andreas, sus agencias o sus representantes deberá ser abonada de forma oportuna, dentro de un plazo de tres semanas (21 días) desde la fecha de su imposición.
+
+Limitación de servicios públicos
+
+Las personas que mantengan multas impagadas verán limitado su acceso a recursos y servicios públicos. En consecuencia, las personas con multas pendientes no tendrán acceso a los siguientes servicios:
+
+La fijación de fianza en cualquier procedimiento por delito grave (A);
+
+La expedición de nuevas licencias o la restitución de licencias por parte del Departamento de Justicia;
+
+La expedición de nuevos registros de vehículos o la actualización de los existentes;
+
+El alquiler, arrendamiento o adquisición de bienes inmuebles;
+
+La retirada de vehículos de cualquier depósito de vehículos de titularidad o gestión estatal.
+
+Embargo de bienes por multas impagadas
+
+Cualquier persona que mantenga multas impagadas superiores a treinta mil dólares (30.000,00 USD) podrá ser objeto del embargo de sus vehículos u otros bienes de su propiedad con el fin de satisfacer el importe adeudado. El Estado deberá notificar a la persona con al menos siete (7) días de antelación al embargo, plazo durante el cual podrá evitar dicha medida abonando las multas pendientes hasta situarlas por debajo del umbral de embargo.
+
+Registros financieros
+
+Exclusivamente a efectos de verificación de la situación económica, mientras una persona mantenga una deuda vencida con el Estado, este se reserva el derecho de comprobar el saldo de las cuentas bancarias de dicha persona sin necesidad de seguir los procedimientos ordinarios de citación judicial, con el fin de verificar su capacidad económica.
+
+Detención, aprehensión y negociación de multas
+
+Cualquier persona con una multa vencida podrá ser retenida por agentes de la autoridad o funcionarios del tribunal con el fin de realizar el cobro presencial de la multa impagada. Dicha retención podrá incluir el traslado al juzgado más cercano o a la comisaría más próxima, con el objetivo de efectuar el cobro.
+
+Los derechos del deudor no se verán menoscabados por su captura, detención o traslado a las fuerzas del orden para su retorno al Estado cuando dichas actuaciones sean realizadas por un FIST debidamente autorizado. Las personas facultadas conforme a esta Ley deberán cumplir todas las normas legales aplicables a la aprehensión.
+
+Un FIST podrá negociar el pago de un porcentaje del importe adeudado y la condonación del resto. Los FIST podrán condonar hasta un treinta y tres por ciento (33 %) de las multas impagadas. Podrá autorizarse una condonación de hasta el cincuenta por ciento (50 %) del importe total adeudado previa revisión de las multas por un miembro del poder judicial.
+
+Negativa al pago de multas
+
+Toda persona que, encontrándose bajo custodia de un agente de la autoridad o funcionario del tribunal, se niegue a aceptar un cargo impuesto por un FIST teniendo capacidad económica para abonarlo, podrá ver incautados directamente los fondos de su cuenta bancaria por parte del Estado, aplicándose además un recargo sancionador adicional del diez por ciento (10 %) sobre el importe de cada multa incautada por este procedimiento.
+
+Cualquier persona que falsee su capacidad de pago ante un funcionario del tribunal tras haber sido requerida por una multa impagada podrá ser objeto de imputación penal, hasta e incluyendo el delito de obstrucción a la justicia.
+
+Sección 009 | Clasificación del porte de armas de fuego:
+
+Ninguna persona podrá poseer un arma de fuego sin estar en posesión de una licencia de armas válida y de una tarjeta de identificación estatal física. Esta exigencia será de aplicación también a los miembros de las fuerzas del orden y a otros empleados gubernamentales.
+
+Asimismo, todas las armas de fuego vendidas en el Estado de San Andreas deberán contar con un número de serie grabado en el armazón o en el receptor inferior, destinado a identificar al propietario legal del arma. Ninguna persona podrá poseer un arma de fuego sin marcar o sin registrar.
+
+Determinadas armas de fuego quedarán restringidas exclusivamente a la posesión por parte de las fuerzas del orden u otros empleados gubernamentales, conforme a la siguiente clasificación:
+
+Clasificación
+
+Arma
+
+Lista I
+
+Ninguna persona podrá poseer estas armas de fuego.
+
+Lista II
+
+Las armas de fuego únicamente podrán ser poseídas por las fuerzas del orden o por aquellas personas debidamente autorizadas por ley o mediante certificación específica.
+
+Armas policiales de uso menos letal
+
+Taser; Shrewsbury 419 (LL)
+
+Pistolas de dotación policial
+
+.454 Revolver; AMTB; M9; HL17; HL38
+
+Rifles y escopetas de dotación policial
+
+SB-12; Harp .308
+
+Sección 010 | Protocolo de respuesta de emergencia.
+
+El Protocolo de respuesta de emergencia (PRE) es un protocolo ejecutivo destinado a mitigar situaciones que puedan surgir cuando los Servicios de Emergencias, las Fuerzas del Orden o el Sistema Sanitario se encuentren en peligro de verse desbordados, repetidamente atacados o totalmente inoperativos como consecuencia de elementos criminales o de eventos catastróficos.
+
+Este protocolo quedará reservado para su activación previa aprobación de DOS de las siguientes autoridades;
+
+Un Juez o Magistrado del Tribunal Supremo;
+
+El Gobernador;
+
+El Vicegobernador;
+
+El Director del DPS;
+
+Cualquier Jefe de Policía, Sheriff o Warden;
+
+El Warden del Departamento de Correcciones;
+
+El Fiscal del Distrito.
+
+Las solicitudes de activación del PRE podrán ser presentadas por el Mando Policial, el Alcalde, el personal médico de alto rango o un Juez.
+
+A efectos de mantenimiento del orden público y de la continuidad de las funciones del Gobierno, el PRE podrá implementarse en el área de Los Santos por un período máximo de cuatro (4) horas, pudiendo ser prorrogado por las autoridades aprobadoras hasta un máximo total de ocho (8) horas.
+
+Protocolo:
+
+Toda persona que solicite acceso a cualquier instalación gubernamental estará sujeta a registro por parte de las fuerzas del orden o del personal de seguridad, y no se permitirá portar ningún tipo de arma dentro de propiedades gubernamentales. Quedarán exentos los empleados gubernamentales autorizados a portar armas de fuego para el desempeño de sus funciones habituales.
+
+Las personas, de manera individual o en grupo, podrán ser retenidas, identificadas y cacheadas por las fuerzas del orden cuando sean observadas con coberturas faciales totales o parciales (incluidos cascos integrales de motocicleta) mientras:
+
+operen un vehículo a motor;
+
+se encuentren en el interior de cualquier establecimiento de titularidad gubernamental o gestionado por el Estado; o
+
+se encuentren en proximidad razonable a cualquier incidente violento.
+
+Las fuerzas del orden podrán activar las unidades y procedimientos operativos designados para el PRE.
+
+Cuando exista causa probable para considerar que una persona ha cometido un delito grave de Clase B o Clase A, dicha persona podrá ser retenida durante la totalidad del período de vigencia del PRE, con el fin de permitir a las fuerzas del orden completar la investigación y mantener la disponibilidad operativa de las unidades en situaciones de emergencia. Toda retención que se determine realizada sin causa probable será considerada ilegal, y a las personas retenidas se les garantizarán todos sus derechos constitucionales ordinarios, incluido el derecho a asistencia letrada y el derecho a negarse a declarar. Las solicitudes de juicio sin jurado quedarán limitadas a vistas ad hoc de determinación de causa probable, sujetas a la discreción judicial y a la disponibilidad de la autoridad judicial.
+
+Cuando resulte necesario, los servicios gubernamentales se centralizarán en el Ayuntamiento (City Hall) o el Departamento de Policía de Mission Row. Los empleados gubernamentales deberán evitar desplazamientos innecesarios por zonas de alto riesgo o vulnerables. Los empleados gubernamentales estarán autorizados a permanecer de servicio durante toda la vigencia del PRE, con independencia de que puedan ejecutar efectivamente sus funciones habituales.
+
+Sección 011 | Regulación gubernamental de sustancias agrícolas y su venta (Ley G.R.A.S.S).
+
+La Oficina del Alcalde podrá designar hasta tres (3) negocios dentro del Estado de San Andreas como cultivadores y vendedores autorizados de marihuana. El propietario del negocio deberá estar en posesión de una Licencia de Dispensario válida, y los empleados de dicho negocio operarán bajo la licencia del propietario.
+
+Un negocio que opere dentro de los límites de esta Ley y que posea una licencia de dispensario válida podrá poseer y vender marihuana dentro del Estado de San Andreas en su establecimiento comercial designado. Dicho negocio podrá:
+
+Poseer hasta cien (100) semillas de marihuana.
+
+Poseer hasta doscientos (200) gramos de marihuana, computándose conjuntamente cogollos húmedos y secos, así como comestibles u otros productos que contengan THC.
+
+Vender hasta tres (3) porros o productos que contengan THC al público en general.
+
+Vender hasta diez (10) porros o productos que contengan THC a titulares de tarjetas válidas de marihuana medicinal.
+
+Revocación de licencia:
+
+Una licencia podrá acumular hasta tres (3) puntos de infracción antes de ser revocada. Cada punto de infracción conllevará la correspondiente sanción económica. La comisión de cualquiera de las siguientes infracciones supondrá la imposición de un punto de infracción al negocio:
+
+Que CUALQUIER empleado sea imputado por CUALQUIERA de los siguientes delitos:
+
+Venta de una sustancia peligrosa controlada;
+
+Posesión criminal con intención de distribución;
+
+Tráfico de drogas.
+
+La posesión del producto en cantidades que excedan los límites máximos establecidos anteriormente.
+
+La venta del producto en cantidades que excedan los límites máximos establecidos anteriormente.
+
+Designación del establecimiento y almacenamiento:
+
+El establecimiento comercial deberá estar claramente designado en el perfil del negocio en el MDW, siendo este el único lugar autorizado para la realización de ventas. El negocio deberá designar asimismo un lugar específico para el almacenamiento legal del producto.
+
+El almacenamiento designado estará sujeto a inspecciones por parte de la Policía o del Consejo Empresarial, sin necesidad de causa, hasta una vez cada veinticuatro (24) horas.
+
+Cultivo y transporte:
+
+Los negocios debidamente licenciados podrán cultivar marihuana en el campo designado en Grapeseed para tal fin, dentro de los límites máximos establecidos anteriormente. Véase el Código de Pesca, Caza y Agricultura, Sección 003, Subapartado G, para la localización del campo designado.
+
+Cuando personas debidamente autorizadas procedan al transporte de los productos, deberán notificar previamente dicho transporte mediante mensaje al 311, indicando que el transporte va a realizarse y de qué forma.
+
+Ejemplo:
+
+Bison (1234ABCD) transportando marihuana desde la granja de Grapeseed hasta Paleto Mainstreet.
+
+Sección 012 | Juntas de Libertad Condicional
+
+Las Juntas de Libertad Condicional operarán bajo la autoridad del Departamento de Correcciones y del Departamento de Justicia. El Warden del Departamento de Correcciones, o un Juez o autoridad judicial de rango superior, podrá, en interés de la justicia, apartarse de las disposiciones de la presente sección.
+
+Las Juntas de Libertad Condicional conocerán exclusivamente de las solicitudes presentadas por internos que cumplan condenas de cadena perpetua. Un interno condenado a prisión perpetua sin posibilidad de libertad condicional podrá ser elegible para presentar una solicitud una vez haya cumplido ciento veinte (120) años de reclusión en la Penitenciaría de Bolingbroke.
+
+Las audiencias serán celebradas por un panel compuesto, como mínimo, por un representante del Departamento de Correcciones, un representante de la Oficina del Alcalde o de la Oficina del Gobernador, y un Juez u otro funcionario judicial de rango superior, pudiendo incorporarse miembros adicionales con la aprobación del Departamento de Justicia, siempre que el panel esté compuesto por un número impar de miembros.
+
+En la audiencia, el solicitante podrá presentar pruebas, proponer testigos y formular alegaciones, y tendrá derecho a contar con un representante o defensor. La Oficina del Fiscal del Distrito, en su calidad de representante del Estado de San Andreas, podrá comparecer para presentar pruebas o argumentos; no obstante, su participación no será obligatoria.
+
+El panel decidirá por mayoría de votos si concede o no la libertad condicional y, en caso de concesión, fijará los términos y condiciones de la puesta en libertad. Las resoluciones que denieguen la libertad condicional deberán expresar los motivos por escrito y especificar el momento en que podrá presentarse una nueva solicitud.
+

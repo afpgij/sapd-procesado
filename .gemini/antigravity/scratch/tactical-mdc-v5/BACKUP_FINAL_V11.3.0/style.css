@@ -1,0 +1,184 @@
+
+/**
+ * NEXUS v7.3 - SIDE-PANEL ARCHITECTURE (HOLOGRAPHIC OBSIDIAN)
+ */
+
+:root {
+    --bg-void: #05070a;
+    --bg-panel: rgba(10, 15, 25, 0.85);
+    --accent-cyan: #00f2ff;
+    --accent-gold: #ffcc00;
+    --accent-red: #ff3333;
+    --text-main: #e0e6ed;
+    --text-dim: #7a8c99;
+    --border-ui: rgba(0, 242, 255, 0.15);
+    --panel-shadow: 0 0 30px rgba(0, 242, 255, 0.05);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: var(--bg-void);
+    color: var(--text-main);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(0, 242, 255, 0.03) 0%, transparent 70%),
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+}
+
+.mdc-container {
+    width: 95vw;
+    height: 90vh;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-ui);
+    box-shadow: var(--panel-shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    animation: nexusBoot 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* HEADER */
+.mdc-header {
+    height: 70px;
+    border-bottom: 1px solid var(--border-ui);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(0,242,255,0.02), transparent);
+}
+
+.logo-area { display: flex; align-items: center; gap: 15px; }
+.logo-icon { color: var(--accent-cyan); width: 28px; height: 28px; filter: drop-shadow(0 0 5px var(--accent-cyan)); }
+.brand { font-family: 'Orbitron', sans-serif; font-size: 1.1rem; letter-spacing: 2px; color: var(--accent-cyan); }
+
+/* MAIN CONTENT (SPLIT LAYOUT) */
+.mdc-main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 280px 1fr; /* COLUMNA 1 (IZQ) | MODULO (DER) */
+    overflow: hidden;
+}
+
+/* NAVIGATION (COLUMNA IZQUIERDA) */
+.side-nav {
+    background: rgba(0,0,0,0.2);
+    border-right: 1px solid var(--border-ui);
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    color: var(--text-dim);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.nav-item i { width: 18px; height: 18px; }
+.nav-item:hover { background: rgba(0,242,255,0.05); color: white; }
+.nav-item.active {
+    background: rgba(0,242,255,0.1);
+    color: var(--accent-cyan);
+    border-left: 3px solid var(--accent-cyan);
+    border-color: rgba(0,242,255,0.2);
+    box-shadow: -10px 0 20px rgba(0,242,255,0.05);
+}
+
+/* VIEWPORT (COLUMNA DERECHA) */
+.viewport {
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.panel {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border-ui);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+.mdc-footer {
+    height: 50px;
+    border-top: 1px solid var(--border-ui);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.65rem;
+    color: var(--text-dim);
+}
+
+@keyframes nexusBoot {
+    0% { opacity: 0; transform: scale(0.98); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(10px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* SMITH UI */
+.smith-input {
+    background: rgba(0,0,0,0.5);
+    border: 1px solid var(--accent-cyan);
+    color: white;
+    padding: 10px 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.smith-input:focus {
+    box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+.smith-btn {
+    background: var(--accent-cyan);
+    color: black;
+    border: none;
+    padding: 12px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.smith-btn:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+}
+
+.result-card {
+    padding: 25px;
+    border: 1px solid var(--border-ui);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
