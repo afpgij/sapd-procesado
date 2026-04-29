@@ -1,0 +1,2250 @@
+{
+  "charges": [
+    {
+      "id": "c001",
+      "name": "No detenerse/cruzar con el semáforo en rojo",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 100,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Conductor que no se detiene ante semáforo en rojo o señal de STOP.",
+      "keywords": [
+        "semaforo",
+        "rojo",
+        "stop",
+        "cruzar",
+        "luz roja"
+      ]
+    },
+    {
+      "id": "c002",
+      "name": "Conducción de un vehículo motorizado sin licencia",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 175,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Conducir sin licencia válida o sin identificación estatal.",
+      "keywords": [
+        "sin licencia conducir",
+        "no tiene carnet",
+        "licencia de conducir",
+        "sin carnet",
+        "carnet"
+      ]
+    },
+    {
+      "id": "c003",
+      "name": "Exceso de velocidad en tercer grado",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 100,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Velocidad 1-25 mph por encima del límite.",
+      "keywords": [
+        "velocidad",
+        "exceso velocidad",
+        "radar",
+        "1 a 25",
+        "poco exceso"
+      ]
+    },
+    {
+      "id": "c004",
+      "name": "Exceso de velocidad en segundo grado",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 175,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Velocidad 26-50 mph por encima del límite.",
+      "keywords": [
+        "exceso velocidad",
+        "26 a 50",
+        "velocidad media"
+      ]
+    },
+    {
+      "id": "c005",
+      "name": "Exceso de velocidad en primer grado",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 300,
+      "points": 2,
+      "jail_minutes": 0,
+      "description": "Velocidad 51-75 mph por encima del límite.",
+      "keywords": [
+        "exceso velocidad",
+        "51 a 75",
+        "velocidad alta",
+        "mucho exceso"
+      ]
+    },
+    {
+      "id": "c006",
+      "name": "Conducción temeraria",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 400,
+      "points": 3,
+      "jail_minutes": 10,
+      "description": "Conducir con desprecio por la seguridad de personas o infraestructura.",
+      "keywords": [
+        "temeraria",
+        "temerario",
+        "conduccion peligrosa",
+        "zigzag",
+        "peligro"
+      ]
+    },
+    {
+      "id": "c007",
+      "name": "Evasión imprudente",
+      "category": "vehiculos",
+      "severity": "Delito grave D",
+      "fine": 400,
+      "points": 3,
+      "jail_minutes": 25,
+      "description": "Conducir con intención de evadir a un oficial de la paz.",
+      "keywords": [
+        "huir",
+        "huida",
+        "evadio",
+        "escapo",
+        "escapar",
+        "persecucion",
+        "perseguir",
+        "evasion",
+        "fugo en coche",
+        "fuga vehiculo",
+        "no para",
+        "huyo",
+        "no paró",
+        "salio corriendo en coche",
+        "arrancó",
+        "arranco huyendo",
+        "se dio a la fuga",
+        "fuga",
+        "huida vehiculo",
+        "escapar policia"
+      ]
+    },
+    {
+      "id": "c008",
+      "name": "Conducción bajo los efectos del alcohol/drogas",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 750,
+      "points": 15,
+      "jail_minutes": 10,
+      "description": "Conducir con 0.08% o más de alcohol en sangre o bajo efectos de drogas.",
+      "keywords": [
+        "drogado",
+        "borracho",
+        "alcohol",
+        "bajo efectos",
+        "intoxicado conduciendo",
+        "dui",
+        "bebido"
+      ]
+    },
+    {
+      "id": "c009",
+      "name": "Atropello y fuga",
+      "category": "vehiculos",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 0,
+      "jail_minutes": 30,
+      "description": "Abandonar el lugar de un accidente con daños a un peatón.",
+      "keywords": [
+        "atropello",
+        "atropellar",
+        "atropello fuga",
+        "choco y se fue",
+        "fuga accidente peatón"
+      ]
+    },
+    {
+      "id": "c010",
+      "name": "Fuga tras accidente con daños a la propiedad",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 500,
+      "points": 3,
+      "jail_minutes": 20,
+      "description": "Abandonar el lugar de un accidente con daños a propiedad sin proporcionar identificación.",
+      "keywords": [
+        "accidente fuga",
+        "choco y se fue",
+        "daños propiedad",
+        "fuga accidente"
+      ]
+    },
+    {
+      "id": "c011",
+      "name": "No mostrar las matrículas del vehículo",
+      "category": "vehiculos",
+      "severity": "Delito grave D",
+      "fine": 1800,
+      "points": 2,
+      "jail_minutes": 0,
+      "description": "No exhibir la matrícula registrada en el vehículo.",
+      "keywords": [
+        "sin matricula",
+        "no matricula",
+        "sin placa",
+        "no lleva matricula",
+        "matricula oculta"
+      ]
+    },
+    {
+      "id": "c012",
+      "name": "Fraude en el registro de vehículos (Menor)",
+      "category": "vehiculos",
+      "severity": "Delito grave C",
+      "fine": 750,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Alterar o falsificar matrícula, certificado de propiedad o arrendamiento.",
+      "keywords": [
+        "matricula falsa",
+        "matricula falsificada",
+        "placa falsa",
+        "fraude registro",
+        "matricula alterada"
+      ]
+    },
+    {
+      "id": "c013",
+      "name": "Fraude en el registro de vehículos (Mayor)",
+      "category": "vehiculos",
+      "severity": "Delito grave C",
+      "fine": 7500,
+      "points": 5,
+      "jail_minutes": 0,
+      "description": "Manipular, falsificar o eliminar el VIN o número de serie del vehículo. Piezas scratcheadas.",
+      "keywords": [
+        "vin borrado",
+        "vin falsificado",
+        "pieza scratch",
+        "motor scratch",
+        "vin alterado",
+        "numero serie borrado"
+      ]
+    },
+    {
+      "id": "c014",
+      "name": "Robo de vehículo en primer grado",
+      "category": "vehiculos",
+      "severity": "Delito grave D",
+      "fine": 1500,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Tomar un vehículo ajeno con intención de privar permanentemente al propietario.",
+      "keywords": [
+        "robo vehiculo primer grado",
+        "robar coche definitivo",
+        "vin borrado robo",
+        "boosting",
+        "robo coche primer grado"
+      ]
+    },
+    {
+      "id": "c015",
+      "name": "Robo de vehículo en segundo grado",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 1500,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Tomar un vehículo ajeno para uso temporal.",
+      "keywords": [
+        "robo vehiculo segundo grado",
+        "robar coche temporal",
+        "uso temporal vehiculo",
+        "tomo el coche de otro"
+      ]
+    },
+    {
+      "id": "c016",
+      "name": "Robo de una aeronave",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 800,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Tomar o pilotar una aeronave ajena sin consentimiento.",
+      "keywords": [
+        "robo helicoptero",
+        "robar helicoptero",
+        "robar avion",
+        "robo aeronave"
+      ]
+    },
+    {
+      "id": "c017",
+      "name": "Operar una aeronave bajo los efectos del alcohol o drogas",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 4000,
+      "points": 3,
+      "jail_minutes": 30,
+      "description": "Pilotar aeronave con signos visibles de intoxicación.",
+      "keywords": [
+        "helicoptero borracho",
+        "piloto drogado",
+        "pilotar borracho",
+        "pilotar drogado",
+        "aeronave borracho"
+      ]
+    },
+    {
+      "id": "c018",
+      "name": "Operar un vehículo sin el registro",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 75,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Conducir sin prueba física del registro del vehículo.",
+      "keywords": [
+        "sin registro",
+        "sin papeles",
+        "no tiene registro",
+        "registro vencido"
+      ]
+    },
+    {
+      "id": "c019",
+      "name": "Operar un vehículo sin registrar",
+      "category": "vehiculos",
+      "severity": "Infracción",
+      "fine": 300,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Conducir un vehículo no matriculado o con registro expirado.",
+      "keywords": [
+        "vehiculo sin registrar",
+        "no registrado",
+        "registro expirado",
+        "tasas no pagadas"
+      ]
+    },
+    {
+      "id": "c020",
+      "name": "Carreras callejeras",
+      "category": "vehiculos",
+      "severity": "Delito leve A",
+      "fine": 750,
+      "points": 3,
+      "jail_minutes": 10,
+      "description": "Participar en carreras de vehículos en vía pública.",
+      "keywords": [
+        "carrera",
+        "carreras callejeras",
+        "race",
+        "racing ilegal"
+      ]
+    },
+    {
+      "id": "c021",
+      "name": "Organización de carreras callejeras",
+      "category": "vehiculos",
+      "severity": "Delito grave C",
+      "fine": 2000,
+      "points": 5,
+      "jail_minutes": 45,
+      "description": "Organizar o facilitar carreras en vía pública sin permiso.",
+      "keywords": [
+        "organizar carrera",
+        "organizador carrera",
+        "organizo carrera"
+      ]
+    },
+    {
+      "id": "c022",
+      "name": "Resistencia al arresto",
+      "category": "orden_publico",
+      "severity": "Delito leve A",
+      "fine": 350,
+      "points": 10,
+      "jail_minutes": 10,
+      "description": "Resistirse ante oficiales que intentan poner al sujeto bajo custodia, incluyendo huida a pie.",
+      "keywords": [
+        "resistencia",
+        "resistio",
+        "huyo a pie",
+        "corrio",
+        "escapo corriendo",
+        "huida pie",
+        "no se dejo esposar",
+        "no se dejo arrestar",
+        "corrio para escapar",
+        "salió corriendo",
+        "salio corriendo",
+        "huyo corriendo",
+        "fuga pie",
+        "resistir arresto",
+        "no se dejo detener"
+      ]
+    },
+    {
+      "id": "c023",
+      "name": "Fuga de la custodia",
+      "category": "judicial",
+      "severity": "Delito grave D",
+      "fine": 890,
+      "points": 30,
+      "jail_minutes": 30,
+      "description": "Escapar de la custodia estando esposado/arrestado antes de ser procesado.",
+      "keywords": [
+        "fuga custodia",
+        "escapo esposado",
+        "se escapo con esposas",
+        "fugarse estando detenido",
+        "escapo de custodia"
+      ]
+    },
+    {
+      "id": "c024",
+      "name": "Desobediencia a un agente de la paz",
+      "category": "orden_publico",
+      "severity": "Delito leve A",
+      "fine": 300,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Negarse a cumplir una orden legal de un oficial uniformado.",
+      "keywords": [
+        "desobediencia",
+        "no obedecer",
+        "no hizo caso",
+        "ignoro orden",
+        "no cumple orden"
+      ]
+    },
+    {
+      "id": "c025",
+      "name": "Obstrucción intencional de la justicia",
+      "category": "orden_publico",
+      "severity": "Delito leve A",
+      "fine": 500,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Retrasar, obstruir o entorpecer a un oficial, funcionario judicial o técnico de emergencias.",
+      "keywords": [
+        "obstruccion",
+        "bloqueo",
+        "bloquear policia",
+        "obstaculizar",
+        "bloqueo huida",
+        "complicidad bloqueo",
+        "interfirio"
+      ]
+    },
+    {
+      "id": "c026",
+      "name": "Disturbio tumultuario",
+      "category": "orden_publico",
+      "severity": "Delito leve A",
+      "fine": 400,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Uso de fuerza o violencia por dos o más personas actuando en conjunto.",
+      "keywords": [
+        "disturbio",
+        "pelea grupal",
+        "grupo violento",
+        "alboroto",
+        "pelea colectiva"
+      ]
+    },
+    {
+      "id": "c027",
+      "name": "Alteración del orden público",
+      "category": "orden_publico",
+      "severity": "Delito leve B",
+      "fine": 200,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Interrumpir la tranquilidad o el orden de la comunidad.",
+      "keywords": [
+        "alteracion orden",
+        "pelea",
+        "ruido excesivo",
+        "conducta violenta",
+        "escandalo"
+      ]
+    },
+    {
+      "id": "c028",
+      "name": "Intoxicación pública",
+      "category": "orden_publico",
+      "severity": "Delito leve C",
+      "fine": 250,
+      "points": 5,
+      "jail_minutes": 0,
+      "description": "Estar en lugar público bajo influencia de alcohol o drogas incapacitante.",
+      "keywords": [
+        "intoxicacion publica",
+        "borracho calle",
+        "drogado calle",
+        "en publico borracho",
+        "drogandose"
+      ]
+    },
+    {
+      "id": "c029",
+      "name": "Intoxicación forzada",
+      "category": "personas",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 1,
+      "jail_minutes": 0,
+      "description": "Administrar forzadamente sustancias controladas a otra persona.",
+      "keywords": [
+        "drogo a otro",
+        "drogo sin consentimiento",
+        "administro droga forzado",
+        "forzar droga",
+        "intoxicacion forzada"
+      ]
+    },
+    {
+      "id": "c030",
+      "name": "Porte de máscara en vía pública",
+      "category": "orden_publico",
+      "severity": "Infracción",
+      "fine": 950,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Portar máscara en vía pública o instalación gubernamental.",
+      "keywords": [
+        "mascara",
+        "pasamontanas",
+        "balaclava",
+        "cara cubierta",
+        "mascara via publica"
+      ]
+    },
+    {
+      "id": "c031",
+      "name": "Agresión y lesiones",
+      "category": "personas",
+      "severity": "Delito leve A",
+      "fine": 400,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Agredir físicamente a otra persona con puños, patadas u ataques corporales directos.",
+      "keywords": [
+        "agresion",
+        "golpeo",
+        "pelea",
+        "puñetazo",
+        "patada",
+        "golpe",
+        "lesiones",
+        "agredir",
+        "pegó",
+        "pego a",
+        "le dio un golpe",
+        "le pegó",
+        "punetazo",
+        "agresion fisica",
+        "ataco",
+        "atacó",
+        "pegar"
+      ]
+    },
+    {
+      "id": "c032",
+      "name": "Agresión con arma blanca/contundente",
+      "category": "armas",
+      "severity": "Delito grave B",
+      "fine": 1500,
+      "points": 30,
+      "jail_minutes": 30,
+      "description": "Agredir a otra persona con arma blanca o instrumento contundente con intención de causar lesiones graves.",
+      "keywords": [
+        "cuchillo",
+        "navaja",
+        "arma blanca",
+        "apuñalar",
+        "apuñalo",
+        "palo",
+        "objeto contundente",
+        "bate",
+        "golpeo con objeto",
+        "arma blanca agresion"
+      ]
+    },
+    {
+      "id": "c033",
+      "name": "Agresión con arma blanca/contundente a un empleado gubernamental",
+      "category": "armas",
+      "severity": "Delito grave B",
+      "fine": 3500,
+      "points": 35,
+      "jail_minutes": 250,
+      "description": "Agredir a un oficial o personal médico en servicio con arma blanca o contundente.",
+      "keywords": [
+        "apuñalo policia",
+        "ataco policia con cuchillo",
+        "golpeo agente",
+        "arma blanca policia",
+        "navajazo policia",
+        "agredir policia objeto"
+      ]
+    },
+    {
+      "id": "c034",
+      "name": "Amenazas criminales",
+      "category": "personas",
+      "severity": "Delito leve A",
+      "fine": 500,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Amenazar con cometer un delito que resultará en muerte o lesiones graves.",
+      "keywords": [
+        "amenaza",
+        "amenazar",
+        "amenazo",
+        "amenaza de muerte",
+        "te voy a matar",
+        "te voy a hacer daño"
+      ]
+    },
+    {
+      "id": "c035",
+      "name": "Privación ilegal de la libertad",
+      "category": "personas",
+      "severity": "Delito leve A",
+      "fine": 425,
+      "points": 12,
+      "jail_minutes": 0,
+      "description": "Violar ilegalmente la libertad personal de otra persona sin justificación legal.",
+      "keywords": [
+        "privo libertad",
+        "encerro",
+        "retuvo",
+        "no lo dejaba irse",
+        "prision ilegal",
+        "retener persona"
+      ]
+    },
+    {
+      "id": "c036",
+      "name": "Secuestro",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 500,
+      "points": 15,
+      "jail_minutes": 15,
+      "description": "Robar, retener o arrestar a una persona por la fuerza, intimidación o engaño y transportarla.",
+      "keywords": [
+        "secuestro",
+        "secuestrar",
+        "secuestro",
+        "rapto",
+        "se llevo a la fuerza",
+        "retuvo y traslado"
+      ]
+    },
+    {
+      "id": "c037",
+      "name": "Secuestro de un empleado gubernamental",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 700,
+      "points": 30,
+      "jail_minutes": 240,
+      "description": "Secuestrar a un empleado gubernamental.",
+      "keywords": [
+        "secuestro policia",
+        "secuestrar policia",
+        "tomar rehén policia",
+        "rehén agente",
+        "secuestro empleado gobierno"
+      ]
+    },
+    {
+      "id": "c038",
+      "name": "Tráfico de personas",
+      "category": "personas",
+      "severity": "Delito grave D",
+      "fine": 2000,
+      "points": 40,
+      "jail_minutes": 40,
+      "description": "Privar de libertad a alguien mediante secuestro para obtener trabajo/servicios o venderle.",
+      "keywords": [
+        "trafico personas",
+        "trafico de personas",
+        "trata de personas",
+        "esclavitud",
+        "vender persona"
+      ]
+    },
+    {
+      "id": "c039",
+      "name": "Intento de homicidio",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 2500,
+      "points": 40,
+      "jail_minutes": 240,
+      "description": "Intentar causar la muerte de otra persona mediante arma de fuego.",
+      "keywords": [
+        "intento homicidio",
+        "intento matar",
+        "disparo a civil",
+        "disparo hiriendo",
+        "intento asesinar",
+        "abatir civil"
+      ]
+    },
+    {
+      "id": "c040",
+      "name": "Intento de homicidio de un empleado gubernamental",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 7500,
+      "points": 60,
+      "jail_minutes": 300,
+      "description": "Intentar causar la muerte de un oficial de la paz mediante arma de fuego.",
+      "keywords": [
+        "intento matar policia",
+        "disparo policia",
+        "abatir policia",
+        "intento homicidio policia",
+        "abatio agente",
+        "disparo agente",
+        "tiro a policia",
+        "disparo a agente",
+        "pego tiro policia",
+        "baleó policia",
+        "herir policia",
+        "hirió agente",
+        "disparo a oficial"
+      ]
+    },
+    {
+      "id": "c041",
+      "name": "Homicidio involuntario",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 1500,
+      "points": 30,
+      "jail_minutes": 180,
+      "description": "Matar a otra persona sin malicia, de forma involuntaria por negligencia o imprudencia.",
+      "keywords": [
+        "homicidio involuntario",
+        "mato sin querer",
+        "muerte accidental",
+        "imprudencia mortal",
+        "atropello mortal"
+      ]
+    },
+    {
+      "id": "c042",
+      "name": "Homicidio en tercer grado",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 5000,
+      "points": 1200,
+      "jail_minutes": 4320,
+      "description": "Matar ilegalmente a otra persona sin malicia, en disputa repentina o arrebato de pasión.",
+      "keywords": [
+        "homicidio tercer grado",
+        "mato en pelea",
+        "mato en discusion",
+        "matar sin premeditacion"
+      ]
+    },
+    {
+      "id": "c043",
+      "name": "Homicidio",
+      "category": "personas",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Matar ilegal e intencionalmente a un ser humano con malicia.",
+      "keywords": [
+        "homicidio",
+        "asesino",
+        "mato",
+        "murio por disparo",
+        "muerte intencional",
+        "asesinato",
+        "matar premeditado"
+      ]
+    },
+    {
+      "id": "c044",
+      "name": "Homicidio de un empleado gubernamental",
+      "category": "personas",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Matar ilegal e intencionalmente a cualquier empleado gubernamental.",
+      "keywords": [
+        "mato policia",
+        "asesino policia",
+        "homicidio policia",
+        "matar agente",
+        "muerte policia intencional"
+      ]
+    },
+    {
+      "id": "c045",
+      "name": "Agravante POGS",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 1750,
+      "points": 50,
+      "jail_minutes": 0,
+      "description": "Incapacitar a 5 o más personas mediante arma de fuego con malicia. Por cada 5 adicionales, otra instancia.",
+      "keywords": [
+        "abatir 5",
+        "abatio 5 o mas",
+        "5 caidos",
+        "muchos heridos arma fuego",
+        "pogs",
+        "agravante pogs"
+      ]
+    },
+    {
+      "id": "c046",
+      "name": "Agravante POGs a un empleado gubernamental",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 2000,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Incapacitar a 5 o más empleados gubernamentales mediante arma de fuego.",
+      "keywords": [
+        "abatir 5 policias",
+        "5 policias caidos",
+        "abatio policias",
+        "pogs policia",
+        "agravante pogs policia"
+      ]
+    },
+    {
+      "id": "c047",
+      "name": "Agresión sexual",
+      "category": "personas",
+      "severity": "Delito leve B",
+      "fine": 850,
+      "points": 60,
+      "jail_minutes": 500,
+      "description": "Acto físico o psicológico de naturaleza sexual sin consentimiento.",
+      "keywords": [
+        "agresion sexual",
+        "acoso sexual",
+        "violacion",
+        "tocamiento sin consentimiento"
+      ]
+    },
+    {
+      "id": "c048",
+      "name": "Posesión criminal de un arma de fuego",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 600,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Poseer un arma de fuego sin licencia o certificación.",
+      "keywords": [
+        "sin licencia arma",
+        "arma sin licencia",
+        "pistola sin licencia",
+        "posesion criminal arma",
+        "arma ilegal",
+        "arma no registrada",
+        "pistola ilegal",
+        "glock",
+        "portaba pistola",
+        "portaba arma",
+        "arma no licenciada",
+        "sin licencia de armas",
+        "handgun",
+        "pistola sin papeles"
+      ]
+    },
+    {
+      "id": "c049",
+      "name": "Posesión criminal de un rifle",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 1500,
+      "points": 35,
+      "jail_minutes": 0,
+      "description": "Poseer un rifle sin certificación o licencia.",
+      "keywords": [
+        "rifle",
+        "rifle ilegal",
+        "rifle sin licencia",
+        "posesion rifle",
+        "carbine",
+        "ak",
+        "m4"
+      ]
+    },
+    {
+      "id": "c050",
+      "name": "Posesión criminal de una escopeta",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 800,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Poseer una escopeta sin certificación o licencia.",
+      "keywords": [
+        "escopeta",
+        "escopeta ilegal",
+        "posesion escopeta",
+        "shotgun"
+      ]
+    },
+    {
+      "id": "c051",
+      "name": "Posesión de explosivos",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 950,
+      "points": 30,
+      "jail_minutes": 40,
+      "description": "Poseer bombas, granadas, cohetes, cócteles molotov o dispositivos similares.",
+      "keywords": [
+        "explosivos",
+        "granada",
+        "bomba",
+        "cohete",
+        "rpg",
+        "molotov",
+        "c4"
+      ]
+    },
+    {
+      "id": "c052",
+      "name": "Uso de explosivos",
+      "category": "armas",
+      "severity": "Delito grave B",
+      "fine": 2000,
+      "points": 40,
+      "jail_minutes": 40,
+      "description": "Detonar o intentar detonar cualquier dispositivo explosivo.",
+      "keywords": [
+        "uso explosivos",
+        "detonar",
+        "exploto",
+        "tiro cohete",
+        "lanzo granada",
+        "puso bomba",
+        "uso rpg",
+        "exploto bomba"
+      ]
+    },
+    {
+      "id": "c053",
+      "name": "Exhibición de arma de fuego",
+      "category": "armas",
+      "severity": "Delito leve A",
+      "fine": 225,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Desenfundar o exhibir arma de fuego de manera amenazante sin causa legal.",
+      "keywords": [
+        "exhibio arma",
+        "saco la pistola",
+        "apunto con pistola",
+        "mostro arma fuego",
+        "amenazo con pistola"
+      ]
+    },
+    {
+      "id": "c054",
+      "name": "Exhibición de un arma",
+      "category": "armas",
+      "severity": "Delito leve C",
+      "fine": 150,
+      "points": 5,
+      "jail_minutes": 0,
+      "description": "Desenfundar o exhibir cualquier arma (no de fuego) de manera amenazante.",
+      "keywords": [
+        "mostro cuchillo",
+        "exhibio cuchillo",
+        "saco el cuchillo",
+        "amenazo con cuchillo",
+        "saco el arma blanca"
+      ]
+    },
+    {
+      "id": "c055",
+      "name": "Descarga negligente de un arma de fuego",
+      "category": "armas",
+      "severity": "Delito leve A",
+      "fine": 400,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Disparar un arma de fuego de manera gravemente negligente sin causa legal.",
+      "keywords": [
+        "disparo negligente",
+        "disparo accidental",
+        "disparo al aire",
+        "disparo sin razon"
+      ]
+    },
+    {
+      "id": "c056",
+      "name": "Descarga temeraria de arma de fuego",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Disparar intencionalmente contra vivienda, edificio, vehículo u aeronave ocupados.",
+      "keywords": [
+        "disparo vivienda",
+        "disparo edificio",
+        "disparo coche",
+        "baleo casa",
+        "disparo aeronave",
+        "ráfaga edificio"
+      ]
+    },
+    {
+      "id": "c057",
+      "name": "Posesión negligente de un arma de fuego",
+      "category": "armas",
+      "severity": "Delito grave B",
+      "fine": 800,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Arma registrada a nombre de otra persona encontrada sin denuncia de robo/pérdida.",
+      "keywords": [
+        "arma de otro",
+        "pistola registrada a otro",
+        "arma registrada nombre ajeno",
+        "posesion negligente"
+      ]
+    },
+    {
+      "id": "c058",
+      "name": "Acumulación menor de armas",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 6000,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Poseer 6 o más armas de fuego sin registro o teniendo prohibida su posesión.",
+      "keywords": [
+        "6 armas",
+        "seis armas",
+        "muchas armas",
+        "acumulacion armas",
+        "arsenal pequeno"
+      ]
+    },
+    {
+      "id": "c059",
+      "name": "Acumulación mayor de armas",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 15000,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Poseer 15 o más armas de fuego sin registro o teniendo prohibida su posesión.",
+      "keywords": [
+        "15 armas",
+        "quince armas",
+        "arsenal",
+        "acumulacion mayor armas",
+        "muchas armas ilegales"
+      ]
+    },
+    {
+      "id": "c060",
+      "name": "Uso de arma de fuego automática",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 2000,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Usar arma automática para propósito ilegal sin certificación.",
+      "keywords": [
+        "arma automatica",
+        "disparo automatico",
+        "rafaga",
+        "arma full auto",
+        "full auto",
+        "uso automatica"
+      ]
+    },
+    {
+      "id": "c061",
+      "name": "Fabricación de armas",
+      "category": "armas",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Fabricar armas de fuego sin licencia del Estado.",
+      "keywords": [
+        "fabricar armas",
+        "fabricacion armas",
+        "hacer armas",
+        "montar armas",
+        "taller armas ilegales"
+      ]
+    },
+    {
+      "id": "c062",
+      "name": "Distribución ilícita de armas",
+      "category": "armas",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Vender o distribuir armas (3+ en 7 días o 6+ en 60 días) sin licencia.",
+      "keywords": [
+        "vender armas",
+        "distribuir armas",
+        "venta de armas",
+        "traficante armas"
+      ]
+    },
+    {
+      "id": "c063",
+      "name": "Venta de un arma de fuego",
+      "category": "armas",
+      "severity": "Delito grave D",
+      "fine": 850,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Vender, arrendar o transferir arma de fuego a persona sin licencia válida.",
+      "keywords": [
+        "vendio arma",
+        "vendio pistola",
+        "vendio rifle",
+        "vender arma a persona"
+      ]
+    },
+    {
+      "id": "c064",
+      "name": "Posesión de una sustancia controlada en segundo grado",
+      "category": "drogas",
+      "severity": "Delito leve A",
+      "fine": 300,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Poseer sustancias controladas en cantidad de delito leve (ej: 3-129 unidades cannabis).",
+      "keywords": [
+        "drogas pequeña cantidad",
+        "droga leve",
+        "porros",
+        "cannabis pequeño",
+        "drogas segundo grado",
+        "droga pequeña",
+        "porros cantidad pequeña",
+        "cannabis",
+        "marihuana",
+        "hierba",
+        "weed",
+        "porro",
+        "droga poca",
+        "poca droga",
+        "unidades droga leve"
+      ]
+    },
+    {
+      "id": "c065",
+      "name": "Posesión de una sustancia controlada en primer grado",
+      "category": "drogas",
+      "severity": "Delito grave D",
+      "fine": 1000,
+      "points": 25,
+      "jail_minutes": 0,
+      "description": "Poseer sustancias controladas en cantidad de delito grave (ej: +129 unidades cannabis).",
+      "keywords": [
+        "drogas gran cantidad",
+        "droga grave",
+        "cannabis grande cantidad",
+        "drogas primer grado",
+        "mucha droga"
+      ]
+    },
+    {
+      "id": "c066",
+      "name": "Posesión grave de una sustancia controlada con intención de distribuir",
+      "category": "drogas",
+      "severity": "Delito grave D",
+      "fine": 6500,
+      "points": 75,
+      "jail_minutes": 0,
+      "description": "+1000 unidades de cualquier sustancia controlada. O cantidad grave con intención de distribuir.",
+      "keywords": [
+        "1000 unidades",
+        "+1000 droga",
+        "droga para vender",
+        "intencion distribuir",
+        "droga distribucion",
+        "trafico pequeño"
+      ]
+    },
+    {
+      "id": "c067",
+      "name": "Venta de una sustancia controlada y peligrosa",
+      "category": "drogas",
+      "severity": "Delito grave D",
+      "fine": 750,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Vender, suministrar o entregar cualquier sustancia de las listas.",
+      "keywords": [
+        "vende drogas",
+        "vendio droga",
+        "suministro droga",
+        "dealer",
+        "trapicheo",
+        "venta droga",
+        "vender paquetes",
+        "paquete droga",
+        "trapichear",
+        "vendiendo",
+        "vendedor droga",
+        "narco",
+        "deal",
+        "vendio paquetes",
+        "entrego droga"
+      ]
+    },
+    {
+      "id": "c068",
+      "name": "Compra de una sustancia controlada y peligrosa",
+      "category": "drogas",
+      "severity": "Delito leve A",
+      "fine": 400,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Comprar sustancias controladas de fuente no autorizada.",
+      "keywords": [
+        "comprar droga",
+        "comprando droga",
+        "compra drogas",
+        "adquirir droga"
+      ]
+    },
+    {
+      "id": "c069",
+      "name": "Fabricación de una sustancia controlada y peligrosa",
+      "category": "drogas",
+      "severity": "Delito grave D",
+      "fine": 1000,
+      "points": 60,
+      "jail_minutes": 0,
+      "description": "Fabricar o cultivar cualquier sustancia de las listas.",
+      "keywords": [
+        "fabricar droga",
+        "cocinar droga",
+        "laboratorio droga",
+        "cultivar droga",
+        "plantar droga",
+        "fabricacion droga"
+      ]
+    },
+    {
+      "id": "c070",
+      "name": "Tráfico de drogas",
+      "category": "drogas",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Distribuir, fabricar o cultivar cantidad equivalente a delito grave de sustancias de las listas.",
+      "keywords": [
+        "trafico drogas",
+        "traficante droga",
+        "droga trafico",
+        "distribucion masiva droga"
+      ]
+    },
+    {
+      "id": "c071",
+      "name": "Robo en primer grado",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 1000,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Robo de seguridad baja mediante violencia o intimidación. (Barberías, LTD, 24/7, tiendas ropa, licorerías, casa playa).",
+      "keywords": [
+        "robo barberia",
+        "robo ltd",
+        "robo 24/7",
+        "robo tienda",
+        "robo licoreria",
+        "robo bajo",
+        "robo seguridad baja",
+        "robo primer grado",
+        "badulaque",
+        "badu",
+        "licoreria",
+        "barberia",
+        "tienda ropa",
+        "casa playa",
+        "robo pequeño",
+        "robo pequeño negocio",
+        "24/7",
+        "ltd",
+        "robo supermercado",
+        "robo gasolinera"
+      ]
+    },
+    {
+      "id": "c072",
+      "name": "Robo en segundo grado",
+      "category": "robos",
+      "severity": "Delito grave B",
+      "fine": 1500,
+      "points": 30,
+      "jail_minutes": 90,
+      "description": "Robo de seguridad media mediante violencia o intimidación. (Armerías, oficinas, joyería Vangelico, casa Michael, apartamentos).",
+      "keywords": [
+        "robo armeria",
+        "robo oficina",
+        "robo joyeria",
+        "vangelico",
+        "robo medio",
+        "robo seguridad media",
+        "robo segundo grado",
+        "arcadius",
+        "robo casa michael",
+        "armeria",
+        "joyeria",
+        "oficinas",
+        "apartamento",
+        "robo medio",
+        "robo nivel medio",
+        "ammunation",
+        "ammu",
+        "ammu-nation"
+      ]
+    },
+    {
+      "id": "c073",
+      "name": "Robo a una institución de alto valor",
+      "category": "robos",
+      "severity": "Delito grave B",
+      "fine": 2500,
+      "points": 40,
+      "jail_minutes": 120,
+      "description": "Robo de seguridad alta. (Fleecas, Lifeinvader, Merryweather, Hospital, Banco).",
+      "keywords": [
+        "robo fleeca",
+        "robo banco",
+        "robo fleca",
+        "robo lifeinvader",
+        "robo merryweather",
+        "robo hospital",
+        "robo alto valor",
+        "robo institucion",
+        "banco fleeca",
+        "fleeca",
+        "fleca",
+        "lifeinvader",
+        "merryweather",
+        "pacific standard",
+        "robo grande",
+        "banco",
+        "entidad financiera",
+        "robo banco grande",
+        "vault"
+      ]
+    },
+    {
+      "id": "c074",
+      "name": "Robo con allanamiento de una propiedad",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 750,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Forzar la entrada a una propiedad con intención de cometer un delito.",
+      "keywords": [
+        "robo casa",
+        "allanamiento",
+        "forzar puerta",
+        "robo propiedad",
+        "10-31",
+        "robo hogar",
+        "entro a casa",
+        "forzó la puerta",
+        "robo vivienda",
+        "entrar casa ajena",
+        "robo domicilio",
+        "10.31"
+      ]
+    },
+    {
+      "id": "c075",
+      "name": "Hurto",
+      "category": "robos",
+      "severity": "Delito leve B",
+      "fine": 400,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Apoderarse de bienes mediante fraude, engaño o sin consentimiento.",
+      "keywords": [
+        "hurto",
+        "robar sin violencia",
+        "timo",
+        "engano para robar",
+        "robo pequeno sin violencia"
+      ]
+    },
+    {
+      "id": "c076",
+      "name": "Hurto mayor",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 5000,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Apoderarse de bienes mediante fraude o engaño por valor superior a $3.000.",
+      "keywords": [
+        "hurto mayor",
+        "hurto gran cantidad",
+        "robar mas de 3000",
+        "estafa grande"
+      ]
+    },
+    {
+      "id": "c077",
+      "name": "Robo a un empleado gubernamental",
+      "category": "robos",
+      "severity": "Delito grave B",
+      "fine": 2500,
+      "points": 45,
+      "jail_minutes": 360,
+      "description": "Tomar equipo de un empleado gubernamental mediante fuerza o intimidación.",
+      "keywords": [
+        "robar policia",
+        "robo arma policia",
+        "tomar equipo policia",
+        "quitar equipo agente",
+        "robar agente"
+      ]
+    },
+    {
+      "id": "c078",
+      "name": "Incendio provocado",
+      "category": "orden_publico",
+      "severity": "Delito grave D",
+      "fine": 775,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Prender fuego voluntaria y maliciosamente a cualquier estructura, vehículo o propiedad.",
+      "keywords": [
+        "incendio",
+        "fuego provocado",
+        "prendo fuego",
+        "quemo propiedad",
+        "incendio provocado",
+        "prender fuego"
+      ]
+    },
+    {
+      "id": "c079",
+      "name": "Vandalismo",
+      "category": "propiedad",
+      "severity": "Delito leve A",
+      "fine": 500,
+      "points": 5,
+      "jail_minutes": 0,
+      "description": "Dañar, destruir o desfigurar maliciosamente bienes de otra persona.",
+      "keywords": [
+        "vandalismo",
+        "dano propiedad",
+        "romper cosa ajena",
+        "destrozar",
+        "grafiti"
+      ]
+    },
+    {
+      "id": "c080",
+      "name": "Vandalismo a propiedad gubernamental",
+      "category": "propiedad",
+      "severity": "Delito grave D",
+      "fine": 1700,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Dañar, destruir o desfigurar maliciosamente propiedad gubernamental.",
+      "keywords": [
+        "vandalismo gobierno",
+        "dano patrulla",
+        "romper patrulla",
+        "destrozar propiedad policial",
+        "grafiti gobierno"
+      ]
+    },
+    {
+      "id": "c081",
+      "name": "Allanamiento de propiedad",
+      "category": "propiedad",
+      "severity": "Delito leve A",
+      "fine": 200,
+      "points": 7,
+      "jail_minutes": 0,
+      "description": "Ingresar o permanecer en propiedad ajena sin causa legal ni permiso.",
+      "keywords": [
+        "allanamiento",
+        "entrar propiedad ajena",
+        "metio en propiedad privada",
+        "intruso",
+        "invadir propiedad"
+      ]
+    },
+    {
+      "id": "c082",
+      "name": "Allanamiento agravado",
+      "category": "propiedad",
+      "severity": "Delito grave D",
+      "fine": 300,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Ingresar o permanecer en propiedad gubernamental restringida sin autorización.",
+      "keywords": [
+        "allanamiento gobierno",
+        "zona restringida",
+        "entrar base policia",
+        "entrar area restringida",
+        "zona prohibida"
+      ]
+    },
+    {
+      "id": "c083",
+      "name": "Extorsión",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 15,
+      "jail_minutes": 0,
+      "description": "Obtener bienes de otra persona mediante fuerza, miedo o pretexto de derecho oficial.",
+      "keywords": [
+        "extorsion",
+        "chantaje",
+        "pedir dinero amenazando",
+        "cobrar proteccion",
+        "amenaza a cambio de dinero"
+      ]
+    },
+    {
+      "id": "c084",
+      "name": "Fraude",
+      "category": "robos",
+      "severity": "Delito grave C",
+      "fine": 890,
+      "points": 30,
+      "jail_minutes": 0,
+      "description": "Engañar a otra persona para obtener beneficios por valor de $500 o más.",
+      "keywords": [
+        "fraude",
+        "estafa",
+        "engano para dinero",
+        "timador",
+        "estafar"
+      ]
+    },
+    {
+      "id": "c085",
+      "name": "Suplantación de identidad",
+      "category": "robos",
+      "severity": "Delito leve A",
+      "fine": 425,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Hacerse pasar por otra persona con intención de engañar o defraudar.",
+      "keywords": [
+        "suplantacion",
+        "haciendose pasar por",
+        "identidad falsa",
+        "nombre falso",
+        "documentacion falsa"
+      ]
+    },
+    {
+      "id": "c086",
+      "name": "Suplantación fraudulenta de un empleado gubernamental",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 20,
+      "jail_minutes": 0,
+      "description": "Portar uniforme, insignia o distintivo policial con intención de suplantar a un funcionario.",
+      "keywords": [
+        "uniforme policial falso",
+        "falso policia",
+        "uniforme de policia falso",
+        "haciendose pasar por policia"
+      ]
+    },
+    {
+      "id": "c087",
+      "name": "Cohecho",
+      "category": "robos",
+      "severity": "Delito leve B",
+      "fine": 225,
+      "points": 5,
+      "jail_minutes": 0,
+      "description": "Dar u ofrecer soborno a un empleado gubernamental.",
+      "keywords": [
+        "soborno",
+        "sobornar",
+        "ofrecio dinero policia",
+        "pago para que lo dejaran ir",
+        "cohecho",
+        "ofrecer dinero agente",
+        "soborno policia",
+        "sobornar policia",
+        "ofrecio soborno"
+      ]
+    },
+    {
+      "id": "c088",
+      "name": "Denuncia falsa",
+      "category": "robos",
+      "severity": "Delito leve C",
+      "fine": 250,
+      "points": 10,
+      "jail_minutes": 0,
+      "description": "Informar a un oficial que se cometió un delito sabiendo que es falso.",
+      "keywords": [
+        "denuncia falsa",
+        "llamada falsa",
+        "alerta falsa",
+        "reporte falso"
+      ]
+    },
+    {
+      "id": "c089",
+      "name": "Posesión injustificada de grandes sumas de efectivo",
+      "category": "robos",
+      "severity": "Delito leve A",
+      "fine": 500,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Poseer $2.000 o más en efectivo sin poder justificar su origen legítimo. (No aplica si viene de robo 1º, 2º o entidad financiera).",
+      "keywords": [
+        "mucho dinero",
+        "efectivo sin justificar",
+        "dinero sin origen",
+        "gran cantidad dinero",
+        "billetes sin justificar",
+        "2000 dolares"
+      ]
+    },
+    {
+      "id": "c090",
+      "name": "Lavado de dinero",
+      "category": "robos",
+      "severity": "Delito grave D",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Ocultar, encubrir o convertir beneficios provenientes de un delito.",
+      "keywords": [
+        "lavado dinero",
+        "blanqueo",
+        "lavar dinero",
+        "blanquear dinero"
+      ]
+    },
+    {
+      "id": "c091",
+      "name": "Manipulación de pruebas",
+      "category": "judicial",
+      "severity": "Delito grave B",
+      "fine": 2075,
+      "points": 50,
+      "jail_minutes": 50,
+      "description": "Alterar, fabricar, ocultar o mover evidencia con intención de afectar un procedimiento judicial.",
+      "keywords": [
+        "manipulacion pruebas",
+        "ocultar evidencia",
+        "eliminar evidencia",
+        "alterar prueba",
+        "destruir prueba",
+        "fabricar evidencia"
+      ]
+    },
+    {
+      "id": "c092",
+      "name": "Manipulación de testigos",
+      "category": "judicial",
+      "severity": "Delito grave B",
+      "fine": 2075,
+      "points": 50,
+      "jail_minutes": 50,
+      "description": "Impedir o disuadir a testigos de declarar en juicio.",
+      "keywords": [
+        "amenazar testigo",
+        "intimidar testigo",
+        "sobornar testigo",
+        "manipular testigo",
+        "callar testigo"
+      ]
+    },
+    {
+      "id": "c093",
+      "name": "Fuga de prisión o durante el traslado",
+      "category": "judicial",
+      "severity": "Delito grave B",
+      "fine": 4000,
+      "points": 120,
+      "jail_minutes": 2880,
+      "description": "Escapar o intentar escapar de una prisión, estación policial o durante traslado.",
+      "keywords": [
+        "fuga prision",
+        "escapo carcel",
+        "escapo traslado",
+        "huida carcel",
+        "fuga traslado",
+        "escapa de prison"
+      ]
+    },
+    {
+      "id": "c094",
+      "name": "Ocultamiento de un fugitivo",
+      "category": "judicial",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 25,
+      "jail_minutes": 0,
+      "description": "Ocultar o ayudar a un fugitivo buscado a evadir el arresto.",
+      "keywords": [
+        "esconder fugitivo",
+        "ayudar fuga",
+        "encubrir fugitivo",
+        "dar refugio fugitivo",
+        "ayudo a escapar"
+      ]
+    },
+    {
+      "id": "c095",
+      "name": "Falso testimonio",
+      "category": "judicial",
+      "severity": "Delito grave B",
+      "fine": 890,
+      "points": 30,
+      "jail_minutes": 30,
+      "description": "Mentir bajo juramento ante un tribunal.",
+      "keywords": [
+        "falso testimonio",
+        "perjurio",
+        "mentir juicio",
+        "mentir tribunal",
+        "declaracion falsa juicio"
+      ]
+    },
+    {
+      "id": "c096",
+      "name": "Introducir contrabando en instalación penitenciaria",
+      "category": "orden_publico",
+      "severity": "Delito grave D",
+      "fine": 700,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Introducir alcohol, drogas o armas en una prisión sin autorización.",
+      "keywords": [
+        "contrabando prision",
+        "meter droga carcel",
+        "meter arma carcel",
+        "pasar objetos carcel",
+        "introducir carcel"
+      ]
+    },
+    {
+      "id": "c097",
+      "name": "Tiroteo/disparo relacionado con pandillas",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 1500,
+      "points": 40,
+      "jail_minutes": 400,
+      "description": "Participar en tiroteo entre pandillas callejeras.",
+      "keywords": [
+        "tiroteo pandillas",
+        "disparo pandilla",
+        "guerra pandillas",
+        "tiro entre bandas",
+        "pelea bandas con armas"
+      ]
+    },
+    {
+      "id": "c098",
+      "name": "Agresión y lesiones relacionadas con pandillas",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 3500,
+      "points": 35,
+      "jail_minutes": 250,
+      "description": "Agresión con arma mortal junto a una pandilla callejera contra otra pandilla.",
+      "keywords": [
+        "agresion pandilla",
+        "pelea pandillas",
+        "banda pega a otra banda",
+        "pandilla agresion"
+      ]
+    },
+    {
+      "id": "c099",
+      "name": "Mutilación en segundo grado",
+      "category": "personas",
+      "severity": "Delito grave B",
+      "fine": 7500,
+      "points": 60,
+      "jail_minutes": 500,
+      "description": "Mutilar o infligir lesiones corporales graves con propósito sádico en un solo hecho.",
+      "keywords": [
+        "mutilacion",
+        "torturo",
+        "mutiló",
+        "lesiones graves sádico",
+        "torturo a alguien"
+      ]
+    },
+    {
+      "id": "c100",
+      "name": "Insultos a funcionario público",
+      "category": "orden_publico",
+      "severity": "Delito leve A",
+      "fine": 150,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Insultar o faltar el respeto a un funcionario público en ejercicio de sus funciones. Acumulable hasta 5 veces.",
+      "keywords": [
+        "insultos policia",
+        "insulto agente",
+        "faltar respeto policia",
+        "insultar funcionario",
+        "menospreciar policia"
+      ]
+    },
+    {
+      "id": "c101",
+      "name": "Corrupción gubernamental",
+      "category": "judicial",
+      "severity": "Delito grave A",
+      "fine": 0,
+      "points": 0,
+      "jail_minutes": 0,
+      "description": "Empleado gubernamental que usa su cargo para ayudar en delitos o distribuye información/armas restringidas.",
+      "keywords": [
+        "corrupcion policia",
+        "agente corrupto",
+        "policia corrupto",
+        "filtrar informacion",
+        "vender armas policia"
+      ]
+    },
+    {
+      "id": "c102",
+      "name": "Transporte ilegal de residuos peligrosos",
+      "category": "orden_publico",
+      "severity": "Delito grave B",
+      "fine": 4000,
+      "points": 3,
+      "jail_minutes": 50,
+      "description": "Trasladar o movilizar residuos peligrosos sin autorización legal.",
+      "keywords": [
+        "residuos peligrosos",
+        "transporte ilegal",
+        "residuos",
+        "peligrosos",
+        "basura peligrosa",
+        "quimicos",
+        "sustancias peligrosas"
+      ]
+    },
+    {
+      "id": "c103",
+      "name": "Asalto hospitalario",
+      "category": "orden_publico",
+      "severity": "Delito grave B",
+      "fine": 10000,
+      "points": 4,
+      "jail_minutes": 70,
+      "description": "Asalto coordinado a instalaciones hospitalarias con el fin de irrumpir, interferir o comprometer la seguridad del centro médico.",
+      "keywords": [
+        "asalto hospital",
+        "hospital",
+        "irrumpir hospital",
+        "rescate hospital",
+        "centro medico",
+        "instalaciones hospitalarias",
+        "asalto sanitario"
+      ]
+    }
+  ],
+  "categories": {
+    "vehiculos": "Vehículos e infracciones",
+    "personas": "Delitos contra las personas",
+    "armas": "Armas y drogas",
+    "drogas": "Sustancias controladas",
+    "robos": "Robos y fraude",
+    "propiedad": "Delitos contra la propiedad",
+    "orden_publico": "Orden público",
+    "judicial": "Judicial y procesal"
+  },
+  "actions": [
+    {
+      "label": "Huyó a pie",
+      "charges": [
+        "c022"
+      ]
+    },
+    {
+      "label": "Huyó en vehículo (evasión)",
+      "charges": [
+        "c007"
+      ]
+    },
+    {
+      "label": "Huyó en vehículo + a pie",
+      "charges": [
+        "c007",
+        "c022"
+      ]
+    },
+    {
+      "label": "Fue copiloto en evasión (cómplice)",
+      "charges": [
+        "c007"
+      ]
+    },
+    {
+      "label": "Escapó estando esposado/detenido",
+      "charges": [
+        "c023"
+      ]
+    },
+    {
+      "label": "Resistió el arresto físicamente",
+      "charges": [
+        "c022"
+      ]
+    },
+    {
+      "label": "Portaba arma de fuego sin licencia",
+      "charges": [
+        "c048"
+      ]
+    },
+    {
+      "label": "Portaba rifle sin licencia",
+      "charges": [
+        "c049"
+      ]
+    },
+    {
+      "label": "Portaba escopeta sin licencia",
+      "charges": [
+        "c050"
+      ]
+    },
+    {
+      "label": "Usó arma automática ilegalmente",
+      "charges": [
+        "c060"
+      ]
+    },
+    {
+      "label": "Portaba explosivos",
+      "charges": [
+        "c051"
+      ]
+    },
+    {
+      "label": "Usó/detonó explosivos",
+      "charges": [
+        "c051",
+        "c052"
+      ]
+    },
+    {
+      "label": "Portaba drogas (cantidad leve, ej: 3-129 cannabis)",
+      "charges": [
+        "c064"
+      ]
+    },
+    {
+      "label": "Portaba drogas (cantidad grave, ej: +130 cannabis)",
+      "charges": [
+        "c065"
+      ]
+    },
+    {
+      "label": "Portaba +1000 unidades de drogas",
+      "charges": [
+        "c066"
+      ]
+    },
+    {
+      "label": "Vendía drogas/paquetes",
+      "charges": [
+        "c067"
+      ]
+    },
+    {
+      "label": "Compraba drogas",
+      "charges": [
+        "c068"
+      ]
+    },
+    {
+      "label": "Fabricaba/cultivaba drogas",
+      "charges": [
+        "c069"
+      ]
+    },
+    {
+      "label": "Robó seguridad baja (LTD/Barbería/24-7...)",
+      "charges": [
+        "c071",
+        "c007",
+        "c015",
+        "c012"
+      ]
+    },
+    {
+      "label": "Robó seguridad media (Armería/Oficina/Joyería...)",
+      "charges": [
+        "c072",
+        "c007",
+        "c015",
+        "c012"
+      ]
+    },
+    {
+      "label": "Robó institución alto valor (Fleeca/Banco...)",
+      "charges": [
+        "c073"
+      ]
+    },
+    {
+      "label": "Robó una casa (allanamiento)",
+      "charges": [
+        "c074"
+      ]
+    },
+    {
+      "label": "Disparó a un civil",
+      "charges": [
+        "c039"
+      ]
+    },
+    {
+      "label": "Disparó a un policía/empleado gubernamental",
+      "charges": [
+        "c040"
+      ]
+    },
+    {
+      "label": "Mató a un civil",
+      "charges": [
+        "c043"
+      ]
+    },
+    {
+      "label": "Mató a un policía/empleado gubernamental",
+      "charges": [
+        "c044"
+      ]
+    },
+    {
+      "label": "Abatió a 5+ civiles con arma de fuego",
+      "charges": [
+        "c045"
+      ]
+    },
+    {
+      "label": "Abatió a 5+ policías con arma de fuego",
+      "charges": [
+        "c046"
+      ]
+    },
+    {
+      "label": "Agredió con puños/patadas",
+      "charges": [
+        "c031"
+      ]
+    },
+    {
+      "label": "Agredió con arma blanca",
+      "charges": [
+        "c032"
+      ]
+    },
+    {
+      "label": "Agredió con arma blanca a un policía",
+      "charges": [
+        "c033"
+      ]
+    },
+    {
+      "label": "Secuestró a un civil",
+      "charges": [
+        "c036"
+      ]
+    },
+    {
+      "label": "Secuestró a un empleado gubernamental",
+      "charges": [
+        "c037"
+      ]
+    },
+    {
+      "label": "Realizó bloqueo durante una huida",
+      "charges": [
+        "c025"
+      ]
+    },
+    {
+      "label": "Portaba máscara en vía pública",
+      "charges": [
+        "c030"
+      ]
+    },
+    {
+      "label": "Condujo borracho/drogado",
+      "charges": [
+        "c008"
+      ]
+    },
+    {
+      "label": "Portaba matrícula falsa",
+      "charges": [
+        "c012"
+      ]
+    },
+    {
+      "label": "VIN borrado / piezas scratcheadas",
+      "charges": [
+        "c013"
+      ]
+    },
+    {
+      "label": "Sin matrícula visible",
+      "charges": [
+        "c011"
+      ]
+    },
+    {
+      "label": "Tenía arma registrada a nombre de otro (sin denuncia)",
+      "charges": [
+        "c057"
+      ]
+    },
+    {
+      "label": "Portaba 6-14 armas ilegales",
+      "charges": [
+        "c058"
+      ]
+    },
+    {
+      "label": "Portaba 15 o más armas ilegales",
+      "charges": [
+        "c059"
+      ]
+    },
+    {
+      "label": "Ofreció soborno a un agente",
+      "charges": [
+        "c087"
+      ]
+    },
+    {
+      "label": "Estaba borracho/drogado en público",
+      "charges": [
+        "c028"
+      ]
+    },
+    {
+      "label": "Portaba dinero sin justificar (+$2.000)",
+      "charges": [
+        "c089"
+      ]
+    },
+    {
+      "label": "Introdujo contrabando en prisión",
+      "charges": [
+        "c096"
+      ]
+    },
+    {
+      "label": "Escapó de prisión",
+      "charges": [
+        "c093"
+      ]
+    },
+    {
+      "label": "Incendio provocado",
+      "charges": [
+        "c078"
+      ]
+    },
+    {
+      "label": "Vandalizó propiedad privada",
+      "charges": [
+        "c079"
+      ]
+    },
+    {
+      "label": "Vandalizó propiedad policial/gubernamental",
+      "charges": [
+        "c080"
+      ]
+    },
+    {
+      "label": "Torturó / mutiló a alguien",
+      "charges": [
+        "c099"
+      ]
+    },
+    {
+      "label": "Tiroteo entre pandillas",
+      "charges": [
+        "c097"
+      ]
+    },
+    {
+      "label": "Condujo sin licencia de conducir",
+      "charges": [
+        "c002"
+      ]
+    },
+    {
+      "label": "Amenazó de muerte a alguien",
+      "charges": [
+        "c034"
+      ]
+    },
+    {
+      "label": "Extorsionó a alguien",
+      "charges": [
+        "c083"
+      ]
+    },
+    {
+      "label": "Estafó/fraude (+$500)",
+      "charges": [
+        "c084"
+      ]
+    }
+  ]
+}
