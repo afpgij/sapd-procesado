@@ -5,7 +5,7 @@ a = Analysis(
     ['sapd_procesado.py'],
     pathex=[],
     binaries=[],
-    datas=[('charges_db.json', '.')],
+    datas=[('charges_db.json', '.'), ('jurisprudencia_db.json', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
