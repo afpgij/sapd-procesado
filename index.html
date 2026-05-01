@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FTD — Field Training Division</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #080b12;
+  --bg-secondary: #0d1220;
+  --bg-tertiary: #111827;
+  --bg-card: #0f1928;
+  --border-dim: #1a2540;
+  --border-bright: #2a3a5c;
+  --accent-gold: #c9a84c;
+  --accent-gold-dim: #8a6e2a;
+  --accent-blue: #3b82f6;
+  --text-primary: #e8edf5;
+  --text-secondary: #8a9ab8;
+  --text-dim: #4a5a78;
+  --rank-ftl: #ef4444;
+  --rank-fts: #f97316;
+  --rank-fti: #3b82f6;
+  --rank-fto: #22c55e;
+  --apto: #22c55e;
+  --apto-bg: rgba(34,197,94,0.12);
+  --mejorable: #f59e0b;
+  --mejorable-bg: rgba(245,158,11,0.12);
+  --desconoce: #ef4444;
+  --desconoce-bg: rgba(239,68,68,0.12);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg-primary);color:var(--text-primary);font-family:'Barlow Condensed',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(59,130,246,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(59,130,246,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0;}
+
+/* HEADER */
+.app-header{position:relative;z-index:10;background:linear-gradient(180deg,#0d1525 0%,#080b12 100%);border-bottom:1px solid var(--border-dim);}
+.header-top{display:flex;align-items:center;gap:1.5rem;padding:1.25rem 2rem 1rem;border-bottom:1px solid var(--border-dim);}
+.shield{width:48px;height:52px;background:linear-gradient(135deg,var(--accent-gold) 0%,#a07828 100%);clip-path:polygon(50% 0%,100% 20%,100% 70%,50% 100%,0% 70%,0% 20%);display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:0.6rem;font-weight:700;color:#1a0e00;letter-spacing:0.05em;flex-shrink:0;}
+.header-titles h1{font-family:'Rajdhani',sans-serif;font-size:1.65rem;font-weight:700;letter-spacing:0.15em;color:var(--accent-gold);text-transform:uppercase;line-height:1;}
+.header-titles p{font-size:0.7rem;letter-spacing:0.25em;color:var(--text-secondary);text-transform:uppercase;font-family:'IBM Plex Mono',monospace;margin-top:0.2rem;}
+.header-status{margin-left:auto;display:flex;align-items:center;gap:0.5rem;font-family:'IBM Plex Mono',monospace;font-size:0.7rem;color:var(--apto);}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--apto);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+
+/* NAV */
+.nav-tabs{display:flex;padding:0 2rem;}
+.nav-tab{padding:0.9rem 1.4rem;cursor:pointer;font-family:'Barlow Condensed',sans-serif;font-size:0.82rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-dim);border:none;border-bottom:2px solid transparent;background:transparent;transition:all 0.2s;display:flex;align-items:center;gap:0.5rem;}
+.nav-tab:hover{color:var(--text-secondary);}
+.nav-tab.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold);}
+.tab-count{background:var(--bg-tertiary);border:1px solid var(--border-dim);border-radius:2px;padding:0.1rem 0.4rem;font-size:0.65rem;font-family:'IBM Plex Mono',monospace;}
+.nav-tab.active .tab-count{background:rgba(201,168,76,0.15);border-color:var(--accent-gold-dim);color:var(--accent-gold);}
+
+/* LAYOUT */
+.app-content{position:relative;z-index:10;max-width:1200px;margin:0 auto;padding:2rem;}
+.section{display:none;animation:fadeIn 0.25s ease;}
+.section.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
+
+/* SECTION HEADER */
+.section-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--border-dim);}
+.section-title{font-family:'Rajdhani',sans-serif;font-size:1.35rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;}
+.section-sub{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--text-dim);letter-spacing:0.1em;margin-top:0.2rem;}
+
+/* FORM ELEMENTS */
+.add-form{display:flex;gap:0.75rem;margin-bottom:1.5rem;align-items:flex-end;}
+.form-group{display:flex;flex-direction:column;gap:0.35rem;flex:1;}
+.form-label{font-size:0.68rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-dim);font-family:'IBM Plex Mono',monospace;}
+.form-input,.form-select{background:var(--bg-tertiary);border:1px solid var(--border-dim);border-radius:2px;padding:0.55rem 0.85rem;color:var(--text-primary);font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;letter-spacing:0.05em;outline:none;transition:border-color 0.2s;width:100%;}
+.form-input:focus,.form-select:focus{border-color:var(--accent-gold-dim);}
+.form-select option{background:var(--bg-secondary);}
+.form-textarea{width:100%;background:var(--bg-tertiary);border:1px solid var(--border-dim);border-radius:2px;padding:0.7rem 0.9rem;color:var(--text-primary);font-family:'IBM Plex Mono',monospace;font-size:0.78rem;resize:vertical;min-height:90px;outline:none;transition:border-color 0.2s;}
+.form-textarea:focus{border-color:var(--accent-gold-dim);}
+
+/* BUTTONS */
+.btn{padding:0.55rem 1.2rem;border:none;border-radius:2px;cursor:pointer;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:0.82rem;letter-spacing:0.15em;text-transform:uppercase;transition:all 0.15s;}
+.btn-primary{background:linear-gradient(135deg,var(--accent-gold) 0%,#a07828 100%);color:#1a0e00;}
+.btn-primary:hover{filter:brightness(1.1);transform:translateY(-1px);}
+.btn-danger{background:transparent;border:1px solid rgba(239,68,68,0.3);color:#ef4444;padding:0.35rem 0.65rem;font-size:0.72rem;}
+.btn-danger:hover{background:rgba(239,68,68,0.1);border-color:#ef4444;}
+.btn-secondary{background:transparent;border:1px solid var(--border-bright);color:var(--text-secondary);}
+.btn-secondary:hover{border-color:var(--accent-gold-dim);color:var(--accent-gold);}
+.btn-success{background:linear-gradient(135deg,#16a34a,#15803d);color:#fff;}
+.btn-success:hover{filter:brightness(1.1);}
+.btn-export{background:transparent;border:1px solid var(--accent-blue);color:var(--accent-blue);}
+.btn-export:hover{background:rgba(59,130,246,0.1);}
+
+/* RANK BADGES */
+.rank-badge{display:inline-flex;align-items:center;padding:0.18rem 0.55rem;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-size:0.68rem;font-weight:500;letter-spacing:0.1em;border:1px solid;}
+.rank-ftl{background:rgba(239,68,68,0.12);border-color:rgba(239,68,68,0.4);color:var(--rank-ftl);}
+.rank-fts{background:rgba(249,115,22,0.12);border-color:rgba(249,115,22,0.4);color:var(--rank-fts);}
+.rank-fti{background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.4);color:var(--rank-fti);}
+.rank-fto{background:rgba(34,197,94,0.12);border-color:rgba(34,197,94,0.4);color:var(--rank-fto);}
+
+/* MEMBERS */
+.rank-legend{display:flex;gap:1rem;flex-wrap:wrap;align-items:center;}
+.rank-legend-item{display:flex;align-items:center;gap:0.4rem;font-size:0.72rem;color:var(--text-secondary);font-family:'IBM Plex Mono',monospace;}
+.members-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:0.65rem;}
+.member-card{background:var(--bg-secondary);border:1px solid var(--border-dim);border-radius:2px;padding:0.9rem 1.1rem;display:flex;align-items:center;gap:0.85rem;transition:border-color 0.2s;}
+.member-card:hover{border-color:var(--border-bright);}
+.member-avatar{width:34px;height:34px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:700;flex-shrink:0;border:1px solid;}
+.member-info{flex:1;min-width:0;}
+.member-name{font-size:0.95rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.member-id{font-family:'IBM Plex Mono',monospace;font-size:0.62rem;color:var(--text-dim);margin-top:0.1rem;}
+
+/* ASPIRANTS */
+.aspirants-list{display:flex;flex-direction:column;gap:0.45rem;}
+.aspirant-row{background:var(--bg-secondary);border:1px solid var(--border-dim);border-radius:2px;padding:0.8rem 1.1rem;display:flex;align-items:center;gap:0.9rem;transition:border-color 0.2s;}
+.aspirant-row:hover{border-color:var(--border-bright);}
+.aspirant-num{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--text-dim);width:1.8rem;text-align:right;flex-shrink:0;}
+.aspirant-name{flex:1;font-size:0.95rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}
+.status-chip{padding:0.18rem 0.65rem;border-radius:2px;font-size:0.68rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;font-family:'IBM Plex Mono',monospace;cursor:pointer;border:1px solid;transition:all 0.15s;white-space:nowrap;}
+.status-pendiente{background:rgba(74,90,120,0.2);border-color:rgba(74,90,120,0.5);color:var(--text-secondary);}
+.status-evaluacion{background:rgba(245,158,11,0.12);border-color:rgba(245,158,11,0.4);color:var(--mejorable);}
+.status-evaluado{background:rgba(34,197,94,0.12);border-color:rgba(34,197,94,0.4);color:var(--apto);}
+
+/* EVAL FORM */
+.eval-form{display:flex;flex-direction:column;gap:1.25rem;}
+.eval-header-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;}
+.eval-block{background:var(--bg-card);border:1px solid var(--border-dim);border-radius:2px;overflow:hidden;}
+.eval-block-head{background:var(--bg-secondary);padding:0.7rem 1.2rem;display:flex;align-items:center;border-bottom:1px solid var(--border-dim);}
+.eval-block-title{font-family:'Rajdhani',sans-serif;font-size:0.95rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent-gold);}
+.eval-block-tag{font-family:'IBM Plex Mono',monospace;font-size:0.62rem;color:var(--text-dim);margin-left:auto;}
+.eval-items{padding:0.25rem 0;}
+.eval-item{display:grid;grid-template-columns:1fr auto;align-items:center;padding:0.6rem 1.2rem;border-bottom:1px solid rgba(26,37,64,0.5);gap:1rem;}
+.eval-item:last-child{border-bottom:none;}
+.eval-item-label{font-size:0.88rem;font-weight:500;color:var(--text-secondary);}
+.rating-group{display:flex;gap:0.35rem;}
+.rating-btn{padding:0.28rem 0.65rem;border:1px solid;border-radius:2px;cursor:pointer;font-family:'Barlow Condensed',sans-serif;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.15s;white-space:nowrap;background:transparent;}
+.rating-btn.apto{border-color:rgba(34,197,94,0.2);color:rgba(34,197,94,0.4);}
+.rating-btn.apto:hover,.rating-btn.apto.selected{border-color:var(--apto);color:var(--apto);background:var(--apto-bg);box-shadow:0 0 8px rgba(34,197,94,0.12);}
+.rating-btn.mejorable{border-color:rgba(245,158,11,0.2);color:rgba(245,158,11,0.4);}
+.rating-btn.mejorable:hover,.rating-btn.mejorable.selected{border-color:var(--mejorable);color:var(--mejorable);background:var(--mejorable-bg);box-shadow:0 0 8px rgba(245,158,11,0.12);}
+.rating-btn.desconoce{border-color:rgba(239,68,68,0.2);color:rgba(239,68,68,0.4);}
+.rating-btn.desconoce:hover,.rating-btn.desconoce.selected{border-color:var(--desconoce);color:var(--desconoce);background:var(--desconoce-bg);box-shadow:0 0 8px rgba(239,68,68,0.12);}
+
+/* RESULT */
+.result-row{display:flex;align-items:center;gap:1.5rem;margin-bottom:1rem;}
+.result-badge{padding:0.45rem 1.4rem;border-radius:2px;font-family:'Rajdhani',sans-serif;font-size:1.15rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;border:2px solid;min-width:170px;text-align:center;}
+.res-pending{border-color:var(--border-bright);color:var(--text-dim);}
+.res-apto{border-color:var(--apto);color:var(--apto);background:var(--apto-bg);}
+.res-condicionado{border-color:var(--mejorable);color:var(--mejorable);background:var(--mejorable-bg);}
+.res-no-apto{border-color:var(--desconoce);color:var(--desconoce);background:var(--desconoce-bg);}
+.result-stats{display:flex;gap:1.25rem;}
+.stat-item{text-align:center;}
+.stat-num{font-family:'Rajdhani',sans-serif;font-size:1.4rem;font-weight:700;display:block;}
+.stat-lbl{font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-dim);font-family:'IBM Plex Mono',monospace;}
+.form-actions{display:flex;gap:0.65rem;justify-content:flex-end;margin-top:0.5rem;}
+
+/* HISTORY */
+.history-list{display:flex;flex-direction:column;gap:0.65rem;}
+.hist-card{background:var(--bg-secondary);border:1px solid var(--border-dim);border-radius:2px;overflow:hidden;transition:border-color 0.2s;}
+.hist-card:hover{border-color:var(--border-bright);}
+.hist-head{padding:0.9rem 1.2rem;display:flex;align-items:center;gap:0.9rem;cursor:pointer;}
+.hist-cadet{font-size:0.95rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;flex:1;}
+.hist-date{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--text-dim);}
+.hist-body{padding:0 1.2rem 1rem;border-top:1px solid var(--border-dim);padding-top:0.9rem;display:none;}
+.hist-body.open{display:block;}
+.hist-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;font-family:'IBM Plex Mono',monospace;font-size:0.72rem;}
+.hist-section-title{color:var(--accent-gold);font-weight:600;margin-bottom:0.45rem;letter-spacing:0.1em;text-transform:uppercase;}
+.hist-row{display:flex;justify-content:space-between;padding:0.18rem 0;border-bottom:1px solid rgba(26,37,64,0.5);}
+.hist-obs{margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid var(--border-dim);color:var(--text-secondary);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;}
+
+/* EMPTY STATE */
+.empty-state{text-align:center;padding:3.5rem 2rem;color:var(--text-dim);}
+.empty-icon{font-size:2.5rem;margin-bottom:0.75rem;opacity:0.25;}
+.empty-text{font-family:'IBM Plex Mono',monospace;font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;}
+
+/* NOTIFICATION */
+.notification{position:fixed;bottom:2rem;right:2rem;background:var(--bg-card);border:1px solid var(--accent-gold-dim);border-left:3px solid var(--accent-gold);border-radius:2px;padding:0.8rem 1.2rem;font-size:0.82rem;letter-spacing:0.04em;z-index:1000;transform:translateX(130%);transition:transform 0.3s cubic-bezier(0.34,1.56,0.64,1);max-width:300px;}
+.notification.show{transform:translateX(0);}
+
+@media(max-width:768px){
+  .eval-header-grid{grid-template-columns:1fr;}
+  .rating-group{flex-wrap:wrap;}
+  .members-grid{grid-template-columns:1fr;}
+  .hist-grid{grid-template-columns:1fr;}
+  .rank-legend{display:none;}
+}
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-top">
+    <div class="shield">FTD</div>
+    <div class="header-titles">
+      <h1>Field Training Division</h1>
+      <p>Sistema de Gestión y Evaluación de Cadetes</p>
+    </div>
+    <div class="header-status">
+      <div class="status-dot"></div>
+      <span>SISTEMA ACTIVO</span>
+    </div>
+  </div>
+  <nav class="nav-tabs" id="mainNav">
+    <button class="nav-tab active" data-section="miembros">Miembros <span class="tab-count" id="cntMiembros">0</span></button>
+    <button class="nav-tab" data-section="aspirantes">Aspirantes <span class="tab-count" id="cntAspirantes">0</span></button>
+    <button class="nav-tab" data-section="evaluacion">Nueva Evaluación</button>
+    <button class="nav-tab" data-section="historial">Historial <span class="tab-count" id="cntHistorial">0</span></button>
+  </nav>
+</header>
+
+<main class="app-content">
+
+  <!-- MIEMBROS -->
+  <section class="section active" id="section-miembros">
+    <div class="section-header">
+      <div>
+        <div class="section-title">División FTD</div>
+        <div class="section-sub">// Personal Activo</div>
+      </div>
+      <div class="rank-legend">
+        <div class="rank-legend-item"><span class="rank-badge rank-ftl">FTL</span> Leader</div>
+        <div class="rank-legend-item"><span class="rank-badge rank-fts">FTS</span> Supervisor</div>
+        <div class="rank-legend-item"><span class="rank-badge rank-fti">FTI</span> Instructor</div>
+        <div class="rank-legend-item"><span class="rank-badge rank-fto">FTO</span> Officer</div>
+      </div>
+    </div>
+    <div class="add-form">
+      <div class="form-group">
+        <label class="form-label">Nombre del Agente</label>
+        <input type="text" class="form-input" id="newMemberName" placeholder="Apellido, Nombre">
+      </div>
+      <div class="form-group" style="max-width:180px">
+        <label class="form-label">Rango</label>
+        <select class="form-select" id="newMemberRank">
+          <option value="FTO">FTO — Officer</option>
+          <option value="FTI">FTI — Instructor</option>
+          <option value="FTS">FTS — Supervisor</option>
+          <option value="FTL">FTL — Leader</option>
+        </select>
+      </div>
+      <button class="btn btn-primary" onclick="addMember()">+ Añadir</button>
+    </div>
+    <div class="members-grid" id="membersList"></div>
+  </section>
+
+  <!-- ASPIRANTES -->
+  <section class="section" id="section-aspirantes">
+    <div class="section-header">
+      <div>
+        <div class="section-title">Aspirantes</div>
+        <div class="section-sub">// Registro de Cadetes · Haz clic en el estado para cambiarlo</div>
+      </div>
+    </div>
+    <div class="add-form">
+      <div class="form-group">
+        <label class="form-label">Nombre del Aspirante</label>
+        <input type="text" class="form-input" id="newAspirantName" placeholder="Apellido, Nombre">
+      </div>
+      <button class="btn btn-primary" onclick="addAspirant()">+ Añadir</button>
+    </div>
+    <div class="aspirants-list" id="aspirantsList"></div>
+  </section>
+
+  <!-- EVALUACIÓN -->
+  <section class="section" id="section-evaluacion">
+    <div class="section-header">
+      <div>
+        <div class="section-title">Evaluación de Cadete</div>
+        <div class="section-sub">// Formulario de Evaluación FTD</div>
+      </div>
+      <button class="btn btn-secondary" onclick="clearEvalForm()">Limpiar</button>
+    </div>
+
+    <div class="eval-form">
+      <!-- Datos -->
+      <div class="eval-block">
+        <div class="eval-block-head"><span class="eval-block-title">Datos de la Evaluación</span></div>
+        <div style="padding:1.2rem">
+          <div class="eval-header-grid">
+            <div class="form-group">
+              <label class="form-label">Agente/s que la realizan</label>
+              <input type="text" class="form-input" id="evalAgentes" placeholder="Agente1, Agente2...">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Cadete Evaluado</label>
+              <select class="form-select" id="evalCadete">
+                <option value="">-- Seleccionar --</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Fecha</label>
+              <input type="date" class="form-input" id="evalFecha">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Práctica -->
+      <div class="eval-block">
+        <div class="eval-block-head">
+          <span class="eval-block-title">Evaluación Práctica</span>
+          <span class="eval-block-tag">09 ÍTEMS</span>
+        </div>
+        <div class="eval-items" id="practicaItems"></div>
+      </div>
+
+      <!-- Teórica -->
+      <div class="eval-block">
+        <div class="eval-block-head">
+          <span class="eval-block-title">Evaluación Teórica</span>
+          <span class="eval-block-tag">04 ÍTEMS</span>
+        </div>
+        <div class="eval-items" id="teoricaItems"></div>
+      </div>
+
+      <!-- Resultado Final -->
+      <div class="eval-block">
+        <div class="eval-block-head"><span class="eval-block-title">Evaluación Final del Cadete</span></div>
+        <div style="padding:1.2rem;display:flex;flex-direction:column;gap:1rem;">
+          <div class="result-row">
+            <div class="result-badge res-pending" id="resultBadge">PENDIENTE</div>
+            <div class="result-stats">
+              <div class="stat-item"><span class="stat-num" id="sApto" style="color:var(--apto)">0</span><span class="stat-lbl">Apto</span></div>
+              <div class="stat-item"><span class="stat-num" id="sMej" style="color:var(--mejorable)">0</span><span class="stat-lbl">Mejorable</span></div>
+              <div class="stat-item"><span class="stat-num" id="sDes" style="color:var(--desconoce)">0</span><span class="stat-lbl">Desconoce</span></div>
+              <div class="stat-item"><span class="stat-num" id="sTot" style="color:var(--text-secondary)">0</span><span class="stat-lbl">Total</span></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Observaciones</label>
+            <textarea class="form-textarea" id="evalObs" placeholder="Comentarios adicionales sobre el desempeño del cadete..."></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-export" onclick="exportEval()">Exportar para Discord</button>
+            <button class="btn btn-success" onclick="saveEval()">Guardar Evaluación</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORIAL -->
+  <section class="section" id="section-historial">
+    <div class="section-header">
+      <div>
+        <div class="section-title">Historial de Evaluaciones</div>
+        <div class="section-sub">// Registros Archivados · Haz clic para expandir</div>
+      </div>
+    </div>
+    <div class="history-list" id="historialList"></div>
+  </section>
+
+</main>
+
+<div class="notification" id="notif"></div>
+
+<script>
+const KEYS = { m: 'ftd_members', a: 'ftd_aspirants', e: 'ftd_evals' };
+const load = k => { try { return JSON.parse(localStorage.getItem(k)) || []; } catch { return []; } };
+const save = (k,d) => localStorage.setItem(k, JSON.stringify(d));
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2);
+
+const PRACTICA = [
+  { key:'narracion', label:'Narración' },
+  { key:'mando', label:'Mando' },
+  { key:'paradaTrafico', label:'Parada de Tráfico' },
+  { key:'procesado', label:'Procesado' },
+  { key:'negociaciones', label:'Negociaciones' },
+  { key:'dispatch', label:'Uso de Dispatch' },
+  { key:'incautacion', label:'Incautación de Vehículo (VIN, cerradura, matrícula y radar)' },
+  { key:'persecucion', label:'Desempeño en Persecución' },
+  { key:'informes', label:'Redacción de Informes / Reportes' }
+];
+const TEORICA = [
+  { key:'evidencias', label:'Recolección de Evidencias' },
+  { key:'fuerza', label:'Uso de la Fuerza' },
+  { key:'adn', label:'Toma de ADN' },
+  { key:'posesion', label:'Posesión Negligente de Arma de Fuego' }
+];
+const ALL_ITEMS = [...PRACTICA, ...TEORICA];
+
+let ratings = {};
+
+// NAV
+document.getElementById('mainNav').addEventListener('click', e => {
+  const tab = e.target.closest('.nav-tab');
+  if (!tab) return;
+  const sec = tab.dataset.section;
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  tab.classList.add('active');
+  document.getElementById('section-' + sec).classList.add('active');
+  if (sec === 'evaluacion') populateCadeteSelect();
+  if (sec === 'historial') renderHistorial();
+});
+
+// ─── MEMBERS ───
+function renderMembers() {
+  const members = load(KEYS.m);
+  document.getElementById('cntMiembros').textContent = members.length;
+  const el = document.getElementById('membersList');
+  if (!members.length) { el.innerHTML = emptyState('Sin miembros registrados'); return; }
+  const order = ['FTL','FTS','FTI','FTO'];
+  const sorted = [...members].sort((a,b) => order.indexOf(a.rango) - order.indexOf(b.rango));
+  const colors = { FTL:'var(--rank-ftl)', FTS:'var(--rank-fts)', FTI:'var(--rank-fti)', FTO:'var(--rank-fto)' };
+  el.innerHTML = sorted.map(m => `
+    <div class="member-card">
+      <div class="member-avatar" style="background:${colors[m.rango]}22;border-color:${colors[m.rango]}55;color:${colors[m.rango]}">
+        ${m.nombre.charAt(0).toUpperCase()}
+      </div>
+      <div class="member-info">
+        <div class="member-name">${esc(m.nombre)}</div>
+        <div class="member-id">#${m.id.slice(-6).toUpperCase()}</div>
+      </div>
+      <span class="rank-badge rank-${m.rango.toLowerCase()}">${m.rango}</span>
+      <button class="btn btn-danger" onclick="removeMember('${m.id}')">✕</button>
+    </div>`).join('');
+}
+
+function addMember() {
+  const name = document.getElementById('newMemberName').value.trim();
+  const rank = document.getElementById('newMemberRank').value;
+  if (!name) { notify('Introduce el nombre del agente'); return; }
+  const members = load(KEYS.m);
+  members.push({ id: uid(), nombre: name, rango: rank });
+  save(KEYS.m, members);
+  document.getElementById('newMemberName').value = '';
+  renderMembers();
+  notify(`${name} añadido como ${rank}`);
+}
+
+function removeMember(id) {
+  save(KEYS.m, load(KEYS.m).filter(m => m.id !== id));
+  renderMembers();
+  notify('Miembro eliminado');
+}
+
+// ─── ASPIRANTS ───
+const STATUS_CYCLE = ['Pendiente','En Evaluación','Evaluado'];
+const STATUS_CLS = { 'Pendiente':'status-pendiente', 'En Evaluación':'status-evaluacion', 'Evaluado':'status-evaluado' };
+
+function renderAspirants() {
+  const list = load(KEYS.a);
+  document.getElementById('cntAspirantes').textContent = list.length;
+  const el = document.getElementById('aspirantsList');
+  if (!list.length) { el.innerHTML = emptyState('Sin aspirantes registrados'); return; }
+  el.innerHTML = list.map((a, i) => `
+    <div class="aspirant-row">
+      <span class="aspirant-num">${String(i+1).padStart(2,'0')}</span>
+      <span class="aspirant-name">${esc(a.nombre)}</span>
+      <span class="status-chip ${STATUS_CLS[a.estado]}" onclick="cycleStatus('${a.id}')" title="Clic para cambiar estado">${a.estado}</span>
+      <button class="btn btn-danger" onclick="removeAspirant('${a.id}')">✕</button>
+    </div>`).join('');
+}
+
+function addAspirant() {
+  const name = document.getElementById('newAspirantName').value.trim();
+  if (!name) { notify('Introduce el nombre del aspirante'); return; }
+  const list = load(KEYS.a);
+  list.push({ id: uid(), nombre: name, estado: 'Pendiente' });
+  save(KEYS.a, list);
+  document.getElementById('newAspirantName').value = '';
+  renderAspirants();
+  notify(`${name} registrado como aspirante`);
+}
+
+function removeAspirant(id) {
+  save(KEYS.a, load(KEYS.a).filter(a => a.id !== id));
+  renderAspirants();
+  notify('Aspirante eliminado');
+}
+
+function cycleStatus(id) {
+  const list = load(KEYS.a);
+  const a = list.find(x => x.id === id);
+  if (!a) return;
+  a.estado = STATUS_CYCLE[(STATUS_CYCLE.indexOf(a.estado) + 1) % STATUS_CYCLE.length];
+  save(KEYS.a, list);
+  renderAspirants();
+}
+
+// ─── EVAL FORM ───
+function buildItems(items, containerId) {
+  document.getElementById(containerId).innerHTML = items.map(item => `
+    <div class="eval-item">
+      <span class="eval-item-label">${esc(item.label)}</span>
+      <div class="rating-group">
+        <button class="rating-btn apto" data-key="${item.key}" data-val="Apto" onclick="setRating('${item.key}','Apto',this)">Apto</button>
+        <button class="rating-btn mejorable" data-key="${item.key}" data-val="Mejorable" onclick="setRating('${item.key}','Mejorable',this)">Mejorable</button>
+        <button class="rating-btn desconoce" data-key="${item.key}" data-val="Desconoce Protocolo" onclick="setRating('${item.key}','Desconoce Protocolo',this)">Desconoce</button>
+      </div>
+    </div>`).join('');
+}
+
+function setRating(key, val, btn) {
+  ratings[key] = val;
+  document.querySelectorAll(`[data-key="${key}"]`).forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  updateResult();
+}
+
+function updateResult() {
+  const rated = ALL_ITEMS.filter(i => ratings[i.key]);
+  let a = 0, m = 0, d = 0;
+  rated.forEach(i => {
+    if (ratings[i.key] === 'Apto') a++;
+    else if (ratings[i.key] === 'Mejorable') m++;
+    else d++;
+  });
+  document.getElementById('sApto').textContent = a;
+  document.getElementById('sMej').textContent = m;
+  document.getElementById('sDes').textContent = d;
+  document.getElementById('sTot').textContent = rated.length;
+  const badge = document.getElementById('resultBadge');
+  badge.className = 'result-badge';
+  if (!rated.length) { badge.classList.add('res-pending'); badge.textContent = 'PENDIENTE'; }
+  else if (d > 0) { badge.classList.add('res-no-apto'); badge.textContent = 'NO APTO'; }
+  else if (m > rated.length / 2) { badge.classList.add('res-condicionado'); badge.textContent = 'CONDICIONADO'; }
+  else { badge.classList.add('res-apto'); badge.textContent = 'APTO'; }
+}
+
+function calcResult() {
+  const rated = ALL_ITEMS.filter(i => ratings[i.key]);
+  if (!rated.length) return 'Pendiente';
+  if (rated.some(i => ratings[i.key] === 'Desconoce Protocolo')) return 'No Apto';
+  if (rated.filter(i => ratings[i.key] === 'Mejorable').length > rated.length / 2) return 'Condicionado';
+  return 'Apto';
+}
+
+function populateCadeteSelect() {
+  const list = load(KEYS.a);
+  const sel = document.getElementById('evalCadete');
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">-- Seleccionar Aspirante --</option>' +
+    list.map(a => `<option value="${esc(a.nombre)}" ${a.nombre === cur ? 'selected' : ''}>${esc(a.nombre)}</option>`).join('');
+}
+
+function clearEvalForm() {
+  ratings = {};
+  document.getElementById('evalAgentes').value = '';
+  document.getElementById('evalFecha').value = today();
+  document.getElementById('evalObs').value = '';
+  populateCadeteSelect();
+  buildItems(PRACTICA, 'practicaItems');
+  buildItems(TEORICA, 'teoricaItems');
+  updateResult();
+}
+
+function saveEval() {
+  const agentes = document.getElementById('evalAgentes').value.trim();
+  const cadete = document.getElementById('evalCadete').value;
+  const fecha = document.getElementById('evalFecha').value;
+  if (!agentes || !cadete || !fecha) { notify('Completa los datos de la evaluación'); return; }
+  const missing = ALL_ITEMS.filter(i => !ratings[i.key]).length;
+  if (missing > 0 && !confirm(`Hay ${missing} ítem(s) sin calificar. ¿Guardar de todos modos?`)) return;
+
+  const ev = {
+    id: uid(), fecha, agentes, cadete,
+    practica: Object.fromEntries(PRACTICA.map(i => [i.key, ratings[i.key] || null])),
+    teorica: Object.fromEntries(TEORICA.map(i => [i.key, ratings[i.key] || null])),
+    resultado: calcResult(),
+    observaciones: document.getElementById('evalObs').value.trim(),
+    ts: Date.now()
+  };
+  const evals = load(KEYS.e);
+  evals.unshift(ev);
+  save(KEYS.e, evals);
+  document.getElementById('cntHistorial').textContent = evals.length;
+
+  // mark aspirant as evaluated
+  const asp = load(KEYS.a);
+  const found = asp.find(a => a.nombre === cadete);
+  if (found) { found.estado = 'Evaluado'; save(KEYS.a, asp); }
+
+  notify(`Evaluación de ${cadete} guardada — ${ev.resultado}`);
+  clearEvalForm();
+}
+
+function exportEval() {
+  const agentes = document.getElementById('evalAgentes').value.trim() || 'N/A';
+  const cadete = document.getElementById('evalCadete').value || 'N/A';
+  const fecha = document.getElementById('evalFecha').value || today();
+  const obs = document.getElementById('evalObs').value.trim();
+  const res = calcResult();
+  const sym = v => !v ? '⬜ Sin evaluar' : v === 'Apto' ? '✅ Apto' : v === 'Mejorable' ? '⚠️ Mejorable' : '❌ Desconoce Protocolo';
+  const resSym = res === 'Apto' ? '✅ APTO' : res === 'Condicionado' ? '⚠️ CONDICIONADO' : '❌ NO APTO';
+  const sep = '─'.repeat(40);
+
+  let txt = `📋 **EVALUACIÓN FTD — FIELD TRAINING DIVISION**\n${sep}\n`;
+  txt += `👮 **Agente/s:** ${agentes}\n🎓 **Cadete:** ${cadete}\n📅 **Fecha:** ${fecha}\n${sep}\n\n`;
+  txt += `**🔵 EVALUACIÓN PRÁCTICA**\n`;
+  PRACTICA.forEach(i => txt += `• **${i.label}:** ${sym(ratings[i.key])}\n`);
+  txt += `\n**📖 EVALUACIÓN TEÓRICA**\n`;
+  TEORICA.forEach(i => txt += `• **${i.label}:** ${sym(ratings[i.key])}\n`);
+  txt += `\n${sep}\n**📊 RESULTADO FINAL: ${resSym}**\n`;
+  if (obs) txt += `\n💬 **Observaciones:** ${obs}\n`;
+  txt += `${sep}\n_Evaluación generada por el Sistema FTD_`;
+
+  navigator.clipboard.writeText(txt).then(() => notify('Copiado al portapapeles ✓'))
+    .catch(() => { const t = Object.assign(document.createElement('textarea'),{value:txt,style:'position:fixed;opacity:0'}); document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); notify('Copiado al portapapeles ✓'); });
+}
+
+// ─── HISTORY ───
+function renderHistorial() {
+  const evals = load(KEYS.e);
+  document.getElementById('cntHistorial').textContent = evals.length;
+  const el = document.getElementById('historialList');
+  if (!evals.length) { el.innerHTML = emptyState('Sin evaluaciones registradas'); return; }
+  const resCls = { 'Apto':'res-apto','Condicionado':'res-condicionado','No Apto':'res-no-apto' };
+  const ratingColor = v => v === 'Apto' ? 'var(--apto)' : v === 'Mejorable' ? 'var(--mejorable)' : v ? 'var(--desconoce)' : 'var(--text-dim)';
+
+  el.innerHTML = evals.map(ev => {
+    const pRows = PRACTICA.map(i => `<div class="hist-row"><span>${i.label}</span><span style="color:${ratingColor(ev.practica[i.key])}">${ev.practica[i.key] || '—'}</span></div>`).join('');
+    const tRows = TEORICA.map(i => `<div class="hist-row"><span>${i.label}</span><span style="color:${ratingColor(ev.teorica[i.key])}">${ev.teorica[i.key] || '—'}</span></div>`).join('');
+    return `
+    <div class="hist-card">
+      <div class="hist-head" onclick="toggleHist('${ev.id}')">
+        <span class="hist-cadet">${esc(ev.cadete)}</span>
+        <span class="result-badge ${resCls[ev.resultado] || 'res-pending'}" style="font-size:0.78rem;padding:0.2rem 0.8rem;min-width:auto">${ev.resultado || '—'}</span>
+        <span class="hist-date">${ev.fecha} · ${esc(ev.agentes)}</span>
+        <button class="btn btn-danger" style="margin-left:0.5rem" onclick="removeEval('${ev.id}',event)">✕</button>
+      </div>
+      <div class="hist-body" id="hb-${ev.id}">
+        <div class="hist-grid">
+          <div><div class="hist-section-title">Práctica</div>${pRows}</div>
+          <div><div class="hist-section-title">Teórica</div>${tRows}</div>
+        </div>
+        ${ev.observaciones ? `<div class="hist-obs">💬 ${esc(ev.observaciones)}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function toggleHist(id) {
+  document.getElementById('hb-' + id)?.classList.toggle('open');
+}
+
+function removeEval(id, e) {
+  e.stopPropagation();
+  if (!confirm('¿Eliminar esta evaluación?')) return;
+  save(KEYS.e, load(KEYS.e).filter(x => x.id !== id));
+  renderHistorial();
+  notify('Evaluación eliminada');
+}
+
+// ─── UTILS ───
+function emptyState(txt) {
+  return `<div class="empty-state"><div class="empty-icon">◈</div><div class="empty-text">${txt}</div></div>`;
+}
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function today() { return new Date().toISOString().split('T')[0]; }
+
+let notifTimer;
+function notify(msg) {
+  const el = document.getElementById('notif');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(notifTimer);
+  notifTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+// Enter key shortcuts
+document.getElementById('newMemberName').addEventListener('keydown', e => { if (e.key === 'Enter') addMember(); });
+document.getElementById('newAspirantName').addEventListener('keydown', e => { if (e.key === 'Enter') addAspirant(); });
+
+// Init
+(function init() {
+  document.getElementById('evalFecha').value = today();
+  buildItems(PRACTICA, 'practicaItems');
+  buildItems(TEORICA, 'teoricaItems');
+  renderMembers();
+  renderAspirants();
+  document.getElementById('cntHistorial').textContent = load(KEYS.e).length;
+})();
+</script>
+</body>
+</html>
